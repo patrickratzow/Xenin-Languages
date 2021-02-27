@@ -1,0 +1,185 @@
+{
+  "phrases": {
+    "ui": {
+      "job_editor": {
+        "shared": {
+          "search": "Search",
+          "cancel": "Cancel",
+          "go_back": "Go Back",
+          "save": "Save",
+          "total_price": "Total Price",
+          "total_price_multiplier": "Total Price @ :multiplier:x",
+          "update_price": "Update Price",
+          "free": "Free"
+        },
+        "steps": {
+          "basics": {
+            "title": "Job Basics",
+            "fields": {
+              "name": {
+                "title": "Name",
+                "input_placeholder": "Job Name",
+                "hint": {
+                  "valid": ":characters:/:max: characters",
+                  "invalid": "Illegal name!"
+                }
+              },
+              "salary": {
+                "title": "Salary",
+                "invalid": "Invalid salary"
+              },
+              "color": {
+                "title": "Colour"
+              },
+              "gun_license": {
+                "title": "Gun License"
+              },
+              "start_health": {
+                "title": "Start Health",
+                "symbol": "HP"
+              },
+              "start_armor": {
+                "title": "Start Armor",
+                "symbol": "AP"
+              },
+              "description": {
+                "title": "Description",
+                "input_placeholder": "Job Description",
+                "hint": {
+                  "valid": ":characters:/:max: characters",
+                  "invalid": "Illegal description!"
+                }
+              }
+            }
+          },
+          "weapons": {
+            "title": "Weapons",
+            "overview": {
+              "empty": ":amount:/:max: weapons",
+              "not_empty": ":amount:/:max: weapons, totalling :price:"
+            },
+            "edit_button": "Edit Weapons"
+          },
+          "models": {
+            "title": "Models",
+            "overview": {
+              "empty": ":amount:/:max: models",
+              "not_empty": ":amount:/:max: models, totalling :price:"
+            },
+            "edit_button": "Edit Models",
+            "import_button": "Import Model",
+            "import": {
+              "workshop": {
+                "overview": "Import Model",
+                "title": "Workshop URL",
+                "subtitle": ":base: + 1MB x :price:",
+                "continue_button": "Continue",
+                "invalid_url": "Invalid URL",
+                "loading": {
+                  "loading_info": "Loading Addon Info",
+                  "error": "Workshop error. Code: :code:",
+                  "disabled": "This addon has been disabled",
+                  "banned": "This addon has been banned",
+                  "downloading": "Downloading Addon",
+                  "unable_to_download": "Unable to download addon",
+                  "mounting": "Mounting Addon",
+                  "unable_to_mount": "Unable to mount addon",
+                  "no_files": "Addon doesn't have any files",
+                  "no_player_models": "Unable to find any playermodels"
+                }
+              },
+              "preview": {
+                "bodygroups": "Bodygroups",
+                "price": "Price"
+              }
+            }
+          },
+          "owners": {
+            "title": "Owners",
+            "overview": {
+              "singular": ":amount: owner, :multiplier:x price",
+              "plural": ":amount: owners, :multiplier:x price",
+              "add_button": "Add Owner"
+            },
+            "add_owner": {
+              "input_placeholder": "SteamID64 of new owner",
+              "no_player_name": "No Player",
+              "primary_owner": "Primary",
+              "additional_owner": "Secondary",
+              "fetching": "Fetching..."
+            }
+          },
+          "checkout": {
+            "title": "Checkout",
+            "overview": "Breakdown",
+            "fields": {
+              "name": {
+                "title": "Name",
+                "empty": "Custom Job"
+              },
+              "salary": "Salary",
+              "health": "Extra Health",
+              "armor": "Extra Armor",
+              "gun_license": "Gun License",
+              "weapons": "Weapons",
+              "models": "Models",
+              "owner_multiplier": "Owner multiplier",
+              "total": "Total",
+              "button": "Purchase Job",
+              "responses": [
+                "Success!",
+                "Unknown error",
+                "Invalid job!",
+                "Can't afford this"
+              ],
+              "errors": [
+                "There is no name",
+                "Name is too short",
+                "Name is too long",
+                "Name contains blacklisted word",
+                "Job has no salary",
+                "Salary is too low",
+                "Salary is too high",
+                "Job has no color",
+                "The color is invalid",
+                "You have an invalid weapon",
+                "You have too many weapons",
+                "You have an invalid model",
+                "You have too many models",
+                "You need at least 1 model",
+                "You have an invalid owner",
+                "Health is invalid",
+                "Health is too high",
+                "Armor is invalid",
+                "Armor is too high",
+                "You can't afford this",
+                "You already have max amount of jobs",
+                "Workshop addon is on the ban list"
+              ]
+            }
+          }
+        }
+      },
+      "main_menu": {
+
+      },
+      "admin": {
+        "job_inspector": {
+
+        },
+        "approvalQueue": {
+          "disabledReasons": [
+            "Awaiting manual approvement",
+            "Disabled by an admin",
+            "Workshop model has changed, and the model is too small!",
+            "Workshop model has changed, and the model is too big!",
+            "Workshop model has changed, and the size change is too drastic!"
+          ]
+        },
+        "importer": {
+
+        }
+      }
+    }
+  }
+}
