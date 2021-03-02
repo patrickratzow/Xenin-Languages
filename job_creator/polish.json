@@ -80,7 +80,7 @@
                   "error": "Błąd warsztatu steam. Kod: :code:",
                   "disabled": "Ten addon jest wyłączony",
                   "banned": "Ten addon jest zablokowany",
-                  "downloading": Pobieranie Addona",
+                  "downloading": "Pobieranie Addona",
                   "unable_to_download": "Nie udało się pobrać addona",
                   "mounting": "Montuje Addona",
                   "unable_to_mount": "Nie udało się zamontować addona",
