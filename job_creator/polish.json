@@ -1,5 +1,185 @@
 {
   "phrases": {
-    
+    "ui": {
+      "job_editor": {
+        "shared": {
+          "search": "Szukaj",
+          "cancel": "Anuluj",
+          "go_back": "Wróć",
+          "save": "Zapisz",
+          "total_price": "Suma:",
+          "total_price_multiplier": "Suma @ :multiplier:x",
+          "update_price": "Zaktualizuj cene",
+          "free": "Za darmo"
+        },
+        "steps": {
+          "basics": {
+            "title": "Podstawowe parametry pracy",
+            "fields": {
+              "name": {
+                "title": "Nazwa",
+                "input_placeholder": "Nazwa pracy",
+                "hint": {
+                  "valid": ":characters:/:max: znaków",
+                  "invalid": "Nieprawidłowa nazwa!"
+                }
+              },
+              "salary": {
+                "title": "Wynagrodzenie",
+                "invalid": "Nieprawidłowe wynagrodzenie"
+              },
+              "color": {
+                "title": "Kolor"
+              },
+              "gun_license": {
+                "title": "Licencja na broń"
+              },
+              "start_health": {
+                "title": "Życie startowe",
+                "symbol": "HP"
+              },
+              "start_armor": {
+                "title": "Armor startowy",
+                "symbol": "AP"
+              },
+              "description": {
+                "title": "Opis",
+                "input_placeholder": "Opis pracy",
+                "hint": {
+                  "valid": ":characters:/:max: znaków",
+                  "invalid": "Nieprawidłowy opis!"
+                }
+              }
+            }
+          },
+          "weapons": {
+            "title": "Bronie",
+            "overview": {
+              "empty": ":amount:/:max: broni",
+              "not_empty": ":amount:/:max: broni, suma do zapłaty: :price:"
+            },
+            "edit_button": "Edytuj bronie"
+          },
+          "models": {
+            "title": "Modele",
+            "overview": {
+              "empty": ":amount:/:max: modeli",
+              "not_empty": ":amount:/:max: modeli, suma do zapłaty: :price:"
+            },
+            "edit_button": "Edytuj modele",
+            "import_button": "Importuj modele",
+            "import": {
+              "workshop": {
+                "overview": "Importuj Model",
+                "title": "Workshop URL",
+                "subtitle": ":base: + 1MB x :price:",
+                "continue_button": "Dalej",
+                "invalid_url": "Nieprawidłowy URL",
+                "loading": {
+                  "loading_info": "Ładowanie Informacji o Addonie",
+                  "error": "Błąd warsztatu steam. Kod: :code:",
+                  "disabled": "Ten addon jest wyłączony",
+                  "banned": "Ten addon jest zablokowany",
+                  "downloading": "Pobieranie Addona",
+                  "unable_to_download": "Nie udało się pobrać addona",
+                  "mounting": "Montuje Addona",
+                  "unable_to_mount": "Nie udało się zamontować addona",
+                  "no_files": "Addon nie posiada żadnych plików",
+                  "no_player_models": "Nie można znaleść żadnych modeli"
+                }
+              },
+              "preview": {
+                "bodygroups": "Grupy ciał",
+                "price": "Cena"
+              }
+            }
+          },
+          "owners": {
+            "title": "Właściciele",
+            "overview": {
+              "singular": ":amount: właściciel, :multiplier:x price",
+              "plural": ":amount: właścicieli, :multiplier:x price",
+              "add_button": "Dodaj właściciela"
+            },
+            "add_owner": {
+              "input_placeholder": "SteamID64 nowego właściciela",
+              "no_player_name": "Brak gracza",
+              "primary_owner": "Główny",
+              "additional_owner": "Dodatkowy",
+              "fetching": "Pobieranie..."
+            }
+          },
+          "checkout": {
+            "title": "Kasa",
+            "overview": "Awaria",
+            "fields": {
+              "name": {
+                "title": "Nazwa",
+                "empty": "Dowolna praca"
+              },
+              "salary": "Zarobki",
+              "health": "Dodatkowe życie",
+              "armor": "Dodatkowy pancerz",
+              "gun_license": "Licencja na broń",
+              "weapons": "Bronie",
+              "models": "Modele",
+              "owner_multiplier": "Mnożnik właściciela",
+              "total": "Suma:",
+              "button": "Kup prace",
+              "responses": [
+                "Powodzenie!",
+                "Nieznany błąd",
+                "Nieprawidłowa praca!",
+                "Nie stać cie na to"
+              ],
+              "errors": [
+                "Brak nazwy",
+                "Nazwa jest za krótka",
+                "Nazwa jest za długa",
+                "Nazwa posiada zabronione słowo",
+                "Praca nie ma wynagrodzenia",
+                "Wynagrodzenie jest za małe",
+                "Wynagrodzenie jest za duże",
+                "Praca nie ma koloru",
+                "Kolor jest nieprawidłowy",
+                "Posiadasz nieprawidłową broń",
+                "Wybrałeś za dużo broni",
+                "Nieprawidłowy model",
+                "Za dużo modeli",
+                "Musisz posiadac przynajmniej jeden model",
+                "Nieprawidłowy właściciel",
+                "Ilość życia jest nieprawidłowa",
+                "Ilość życia jest zbyt duża",
+                "Nieprawidłowy pancerz",
+                "Za dużo pancerza",
+                "Nie stać cię na to",
+                "Masz maksymalną ilość prac",
+                "Ten addon z warsztatu steam jest zabroniony"
+              ]
+            }
+          }
+        }
+      },
+      "main_menu": {
+
+      },
+      "admin": {
+        "job_inspector": {
+
+        },
+        "approvalQueue": {
+          "disabledReasons": [
+            "Oczekiwanie na ręczną weryfikacje",
+            "Wyłączone przez administratora",
+            "Model z warsztatu się zmienił i model jest za mały!",
+            "Model z warsztatu się zmienił i model jest za duży!",
+            "Model z warsztatu się zmienił, a zmiana rozmiaru jest zbyt drastyczna!"
+          ]
+        },
+        "importer": {
+
+        }
+      }
+    }
   }
 }
