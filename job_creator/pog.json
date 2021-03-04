@@ -1,0 +1,185 @@
+{
+  "phrases": {
+    "ui": {
+      "job_editor": {
+        "shared": {
+          "search": "Search Da Ship",
+          "cancel": "No",
+          "go_back": "Bak",
+          "save": "Save",
+          "total_price": "Cost of dis item",
+          "total_price_multiplier": "Total Price @ :multiplier:x",
+          "update_price": "Price or del *",
+          "free": "Fre"
+        },
+        "steps": {
+          "basics": {
+            "title": "Job",
+            "fields": {
+              "name": {
+                "title": "Name",
+                "input_placeholder": "Poggers name",
+                "hint": {
+                  "valid": ":characters:/:max: characters",
+                  "invalid": "Illegal name, fix it retard!"
+                }
+              },
+              "salary": {
+                "title": "moneyz",
+                "invalid": "Invalid moneyz"
+              },
+              "color": {
+                "title": "Color"
+              },
+              "gun_license": {
+                "title": "Gun Licensees"
+              },
+              "start_health": {
+                "title": "Starting Health",
+                "symbol": "HEALTH POINTS"
+              },
+              "start_armor": {
+                "title": "Start Armor",
+                "symbol": "ARMOR POINTS"
+              },
+              "description": {
+                "title": "Descirpt",
+                "input_placeholder": "Job Descirpt",
+                "hint": {
+                  "valid": ":characters:/:max: characters",
+                  "invalid": "Illegal description, fix it retard!"
+                }
+              }
+            }
+          },
+          "weapons": {
+            "title": "Weapon",
+            "overview": {
+              "empty": ":amount:/:max: weapon",
+              "not_empty": ":amount:/:max: weapons, totall :price:"
+            },
+            "edit_button": "Edit Weapon"
+          },
+          "models": {
+            "title": "ply model",
+            "overview": {
+              "empty": ":amount:/:max: ply model",
+              "not_empty": ":amount:/:max: ply model, totalling :price:"
+            },
+            "edit_button": "Edit ply model",
+            "import_button": "Import ply model",
+            "import": {
+              "workshop": {
+                "overview": "Import ply model",
+                "title": "Workshop Link thingy",
+                "subtitle": ":base: + 1MB x :price:",
+                "continue_button": "yes, go forward",
+                "invalid_url": "Invalid Linky",
+                "loading": {
+                  "loading_info": "Loading",
+                  "error": "Workshop error, fuck you. :code:",
+                  "disabled": "addon use Diabled!",
+                  "banned": "Taddon use Banned!",
+                  "downloading": "UwU Downloading UwU",
+                  "unable_to_download": "fail donlow",
+                  "mounting": "Mounting",
+                  "unable_to_mount": "FAILURE FUCK!",
+                  "no_files": "dis addon roke unable no foldes",
+                  "no_player_models": "no pwarmodels"
+                }
+              },
+              "preview": {
+                "bodygroups": "groups of body",
+                "price": "Price"
+              }
+            }
+          },
+          "owners": {
+            "title": "Owner",
+            "overview": {
+              "singular": ":amount: own, :multiplier:x price",
+              "plural": ":amount: ownes, :multiplier:x price",
+              "add_button": "Add Ownr"
+            },
+            "add_owner": {
+              "input_placeholder": "STEAMID64 GO HERE ",
+              "no_player_name": "NO PLAWJUGHORU FOUIND",
+              "primary_owner": "Ooga Booga",
+              "additional_owner": "Mini-Ogga Booga",
+              "fetching": "Fetch go BBBBRRBRRBRRRRRBRBRBRBrbB"
+            }
+          },
+          "checkout": {
+            "title": "pay us, now",
+            "overview": "fuk",
+            "fields": {
+              "name": {
+                "title": "Nam",
+                "empty": "You entit inter one -_-"
+              },
+              "salary": "Moneys",
+              "health": "helf",
+              "armor": "armowr",
+              "gun_license": "licenfe",
+              "weapons": "weapin",
+              "models": "models",
+              "owner_multiplier": "ownr",
+              "total": "Totleww",
+              "button": "BUY JOB RIGHT FRIK NOW",
+              "responses": [
+                "good",
+                "retarded error",
+                "bad job",
+                "you are poor"
+              ],
+              "errors": [
+                "no name",
+                "short name",
+                "loooooooooooooooooooong name",
+                "Poopy word in name",
+                "no salary :O",
+                "lo salry",
+                "salry to big",
+                "no colr",
+                "bad clr",
+                "bad wepon",
+                "toio many wep",
+                "bsd mdel",
+                "too meny mdel",
+                "no model",
+                "inwalid owner",
+                "inval heal",
+                "heal big",
+                "shild invalid",
+                "shil to buig",
+                "YOU ARE FUCKING POOR",
+                "MAx Job",
+                "ban addon"
+              ]
+            }
+          }
+        }
+      },
+      "main_menu": {
+
+      },
+      "admin": {
+        "job_inspector": {
+
+        },
+        "approvalQueue": {
+          "disabledReasons": [
+            "be patient",
+            "disabl",
+            "smal model",
+            "big model",
+            "holy shit big model change :O"
+          ]
+        },
+        "importer": {
+
+        }
+      }
+    }
+  }
+}
