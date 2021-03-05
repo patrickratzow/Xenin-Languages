@@ -49,25 +49,39 @@
                   "valid": ":characters:/:max: characters",
                   "invalid": "Illegal description!"
                 }
+              },
+              "category": {
+                "title": "Job Category"
               }
             }
           },
           "weapons": {
             "title": "Weapons",
             "overview": {
-              "empty": ":amount:/:max: weapons",
-              "not_empty": ":amount:/:max: weapons, totalling :price:"
+              "empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}, totalling :price:"
             },
-            "edit_button": "Edit Weapons"
+            "edit_button": "Edit Weapons",
+            "no_weapons_selected": "No Weapons Selected"
           },
           "models": {
             "title": "Models",
             "overview": {
-              "empty": ":amount:/:max: models",
-              "not_empty": ":amount:/:max: models, totalling :price:"
+              "empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}, totalling :price:"
             },
+            "change_model": "Change Model",
             "edit_button": "Edit Models",
             "import_button": "Import Model",
+            "unable_to_find_name": "Unable to find name",
+            "fetching": "Fetching...",
+            "worth": "Worth",
+            "model_source": {
+              "select": "Select model source",
+              "or": "or",
+              "go_to_selected_model": "Go to Selected Model"
+            },
+            "no_models_selected": "No Models Selected",
             "import": {
               "workshop": {
                 "overview": "Import Model",
@@ -75,6 +89,11 @@
                 "subtitle": ":base: + 1MB x :price:",
                 "continue_button": "Continue",
                 "invalid_url": "Invalid URL",
+                "checks": {
+                  "awaiting": "Loading...",
+                  "banned": "Workshop addon is banned by the server!",
+                  "in_use": "This addon is used by another job already!"
+                },
                 "loading": {
                   "loading_info": "Loading Addon Info",
                   "error": "Workshop error. Code: :code:",
@@ -97,8 +116,7 @@
           "owners": {
             "title": "Owners",
             "overview": {
-              "singular": ":amount: owner, :multiplier:x price",
-              "plural": ":amount: owners, :multiplier:x price",
+              "title": ":amount: {{ grammaticalNumber(owner, :amount:) }}, :multiplier:x price",
               "add_button": "Add Owner"
             },
             "add_owner": {
@@ -112,6 +130,11 @@
           "checkout": {
             "title": "Checkout",
             "overview": "Breakdown",
+            "unable_to_afford": "Unable to afford",
+            "validation": {
+              "validating": "Validating Job",
+              "waiting_for_server": "Waiting for server"
+            },
             "fields": {
               "name": {
                 "title": "Name",
@@ -156,30 +179,225 @@
                 "You already have max amount of jobs",
                 "Workshop addon is on the ban list"
               ]
+            },
+            "credits": {
+              "cancel": "Cancel",
+              "currency_format": "+:currency:"
             }
           }
         }
       },
       "main_menu": {
-
+        "inspect": {
+          "worth": "Worth",
+          "edit_job": "Edit Job",
+          "go_back": "Go Back",
+          "delete": "Delete",
+          "delete_modal": {
+            "title": "Delete :name:",
+            "description": "Are you sure you want to delete this custom job? It won't refund your payment",
+            "yes": "Yes",
+            "no": "No"
+          },
+          "fields": {
+            "name": "Name",
+            "salary": "Salary",
+            "color": "Colour"
+          }
+        },
+        "job": {
+          "inspect": "INSPECT",
+          "empty": "EMPTY",
+          "create_new": "CREATE NEW",
+          "disabled_job": "DISABLED JOB"
+        },
+        "tabs": {
+          "your_jobs": "YOUR JOBS",
+          "shared_jobs": "SHARED JOBS"
+        },
+        "credits": {
+          "you_have": "You Have"
+        }
       },
       "admin": {
-        "job_inspector": {
-
+        "tabs": {
+          "job_management": {
+            "title": "Job Management",
+            "subtitle": "Manage jobs"
+          },
+          "job_approval": {
+            "title": "Job Approval",
+            "subtitle": "Approve disabled jobs"
+          },
+          "job_creator": {
+            "title": "Job Creator",
+            "subtitle": "Create jobs manually"
+          },
+          "job_editor": {
+            "title": "Job Editor",
+            "subtitle": "Edit jobs"
+          },
+          "workshop_bans": {
+            "title": "Workshop Bans",
+            "subtitle": "Ban workshop addons"
+          },
+          "player_manager": {
+            "title": "Player Manager",
+            "subtitle": "Manage players"
+          }
         },
-        "approvalQueue": {
-          "disabledReasons": [
+        "job_inspector": {
+          "title": "Job Inspection",
+          "loading": "Loading"
+        },
+        "approval_queue": {
+          "top": {
+            "search": "Search by job name",
+            "manually_disabled_job": "Show manually disabled jobs"
+          },
+          "disabled_reasons": [
             "Awaiting manual approvement",
             "Disabled by an admin",
             "Workshop model has changed, and the model is too small!",
             "Workshop model has changed, and the model is too big!",
             "Workshop model has changed, and the size change is too drastic!"
-          ]
+          ],
+          "loading": "Loading",
+          "no_results": "No Results",
+          "popup": {
+            "inspect": "Inspect Job",
+            "accept": "Accept Job",
+            "decline": "Decline Job"
+          }
         },
-        "importer": {
-
+        "create": {
+          "import": {
+            "button": "Import Lua Job",
+            "clear_button": "Clear Job",
+            "popup": {
+              "import_button": "Import Job",
+              "title": "Lua code",
+              "placeholder": "Paste the Lua code for the job you wish to import"
+            }
+          }
+        },
+        "bans": {
+          "search": "Search by id/name",
+          "add": {
+            "button": "Add Ban",
+            "modal": {
+              "title": "",
+              "ban_button": "Ban",
+              "info": {
+                "name": {
+                  "title": "Name",
+                  "content": ":title:"
+                },
+                "size": {
+                  "title": "Size",
+                  "content": ":size: MB"
+                },
+                "uniqueViews": {
+                  "title": "Unique Views",
+                  "content": ":views:"
+                },
+                "subscriptions": {
+                  "title": "Subscriptions",
+                  "content": ":subscriptions:"
+                },
+                "favorites": {
+                  "title": "Favourites",
+                  "content": ":favorites:"
+                },
+                "posted": {
+                  "title": "Posted",
+                  "content": "{{ fullDate(:epoch:) }}"
+                },
+                "last_updated": {
+                  "title": "Last Updated",
+                  "content": "{{ fullDate(:epoch:) }}"
+                }
+              }
+            }
+          },
+          "title": {
+            "filter": ":filterHits:/:total: {{ grammaticalNumber(addon, :total:) }} visible",
+            "normal": ":total: {{ grammaticalNumber(addon, :total:) }} banned"
+          },
+          "grid": {
+            "open_addon": {
+              "button": "Open Addon"
+            },
+            "remove_ban": {
+              "button": "Remove Ban",
+              "modal": {
+                "title": "Remove Ban",
+                "description": "Are you sure you want to remove the ban?",
+                "yes": "Yes",
+                "no": "No"
+              }
+            },
+            "id": "id: :id:"
+          }
+        },
+        "management": {
+          "top": {
+            "search": "Search by job name",
+            "offline_players": "Show offline players jobs"
+          },
+          "loading": "Loading",
+          "no_results": "No Results",
+          "subtitle": "Owned by :name: (:sid:)",
+          "popup": {
+            "inspect": "Inspect Job",
+            "enable": "Enable Job",
+            "disable": "Disable Job"
+          }
+        }
+      },
+      "hud": {
+        "fetching": "Fetching Info",
+        "status": [
+          "Starting Download",
+          "Downloading",
+          "Mounting",
+          "",
+          "Error"
+        ]
+      },
+      "config": {
+        "auto_update": "Auto Update",
+        "beta": "Beta",
+        "locked": "Locked to this version",
+        "changelogs": "Changelogs",
+        "lock": "Lock to this version",
+        "lock_modal": {
+          "title": "Lock to version :version:",
+          "description": "The addon will no longer auto update if you lock the version",
+          "yes": "Yes, that's fine",
+          "no": "Nevermind"
+        },
+        "loading": "Loading Versions",
+        "unable_to_load": "Unable to load versions remotely"
+      }
+    },
+    "notifications": {
+      "currency_given": {
+        "text": "You were given :amount:"
+      },
+      "disabled_job": {
+        "content": "Your [:jobName:] job has been automatically disabled due to a larger than allowed update for the workshop addon.\nIt has been put into the approval queue, and is awaiting an admin to look at it",
+        "popup": {
+          "view": {
+            "text": "View Job",
+            "loading": "Getting job from database"
+          }
         }
       }
     }
+  },
+  "functions": {
+    "grammaticalNumber": "local args = { ... }; local str = args[1]; local input = args[2]; return str .. (tonumber(input) != 1 and 's' or '')",
+    "fullDate": "local args = { ... }; local epoch = tonumber(args[1]); return os.date('%d %b, %Y @ %I:%M %p', epoch)"
   }
 }
