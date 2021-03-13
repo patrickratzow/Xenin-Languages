@@ -105,6 +105,11 @@
                   "unable_to_mount": "Unable to mount addon",
                   "no_files": "Addon doesn't have any files",
                   "no_player_models": "Unable to find any playermodels"
+                },
+                "too_many": {
+                  "title": "",
+                  "description": "",
+                  "acknowledge_button": "Okay"
                 }
               },
               "preview": {
