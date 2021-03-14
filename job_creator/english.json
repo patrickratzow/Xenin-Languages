@@ -20,8 +20,10 @@
                 "title": "Name",
                 "input_placeholder": "Job Name",
                 "hint": {
-                  "valid": ":characters:/:max: characters",
-                  "invalid": "Illegal name!"
+                  "too_few": "Too few characters! Minimum :minimum: characters",
+                  "too_many": "Too many characters! :characters:/:max: characters",
+                  "illegal": "Illegal description!",
+                  "valid": ":characters:/:max: characters"
                 }
               },
               "salary": {
