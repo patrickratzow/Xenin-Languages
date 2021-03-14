@@ -22,7 +22,7 @@
                 "hint": {
                   "too_few": "Too few characters! Minimum :minimum: characters",
                   "too_many": "Too many characters! :characters:/:max: characters",
-                  "illegal": "Illegal description!",
+                  "illegal": "Illegal name!",
                   "valid": ":characters:/:max: characters"
                 }
               },
