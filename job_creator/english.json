@@ -107,9 +107,10 @@
                   "no_player_models": "Unable to find any playermodels"
                 },
                 "too_many": {
-                  "title": "",
-                  "description": "",
-                  "acknowledge_button": "Okay"
+                  "title": "Max models reached!",
+                  "description": "You can't add more models! You're at the limit",
+                  "replace_button": "Replace newest model",
+                  "nevermind_button": "Nevermind"
                 }
               },
               "preview": {
