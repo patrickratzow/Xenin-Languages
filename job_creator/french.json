@@ -1,0 +1,411 @@
+{
+    "phrases": {
+      "ui": {
+        "job_editor": {
+          "shared": {
+            "search": "Rechercher",
+            "cancel": "Annuler",
+            "go_back": "Retour",
+            "save": "Sauvegarder",
+            "total_price": "Prix total",
+            "total_price_multiplier": "Prix total @ :multiplier:x",
+            "update_price": "Mettre à jour le Prix",
+            "free": "Gratuit"
+          },
+          "steps": {
+            "basics": {
+              "title": "Essentiel du métier",
+              "fields": {
+                "name": {
+                  "title": "Nom",
+                  "input_placeholder": "Nom du métier",
+                  "hint": {
+                    "too_few": "Trop peu de caractères! Minimum :minimum : caractères.",
+                    "too_many": "Trop de caractères! :characters:/:max: caractères.",
+                    "illegal": "Nom non conforme!",
+                    "valid": ":characters:/:max: caractères"
+                  }
+                },
+                "salary": {
+                  "title": "Salaire",
+                  "invalid": "Salaire invalide"
+                },
+                "color": {
+                  "title": "Couleur"
+                },
+                "gun_license": {
+                  "title": "Licence d'arme à feu"
+                },
+                "start_health": {
+                  "title": "Vie supplémentaire",
+                  "symbol": "PV"
+                },
+                "start_armor": {
+                  "title": "Armure supplémentaire",
+                  "symbol": "PA"
+                },
+                "description": {
+                  "title": "Description",
+                  "input_placeholder": "Description du métier",
+                  "hint": {
+                    "valid": ":characters:/:max: caractères",
+                    "invalid": "Description non valide!"
+                  }
+                },
+                "category": {
+                  "title": "Catégorie du métier"
+                }
+              }
+            },
+            "weapons": {
+              "title": "Armes",
+              "overview": {
+                "empty": ":amount:/:max: {{ grammaticalNumber(arme, :max:) }}",
+                "not_empty": ":amount:/:max: {{ grammaticalNumber(arme, :max:) }}, pour un total de :price:"
+              },
+              "edit_button": "Modifier les armes",
+              "no_weapons_selected": "Aucune arme sélectionnée"
+            },
+            "models": {
+              "title": "Modèles",
+              "overview": {
+                "empty": ":amount:/:max: {{ grammaticalNumber(modèle, :max:) }}",
+                "not_empty": ":amount:/:max: {{ grammaticalNumber(modèle, :max:) }}, pour un total de :price:"
+              },
+              "change_model": "Changer de Modèle",
+              "edit_button": "Éditer les Modèles",
+              "import_button": "Importer un Modèle",
+              "unable_to_find_name": "Impossible de trouver le nom",
+              "fetching": "Recherche en cours...",
+              "worth": "Valeur",
+              "model_source": {
+                "select": "Sélectionner la source du modèle",
+                "or": "ou",
+                "go_to_selected_model": "Aller au modèle sélectionné"
+              },
+              "no_models_selected": "Aucun modèle sélectionné",
+              "import": {
+                "workshop": {
+                  "overview": "Importer un Modèle",
+                  "title": "URL du Workshop",
+                  "subtitle": ":base: + 1MB x :price:",
+                  "continue_button": "Continuer",
+                  "invalid_url": "URL Invalide",
+                  "checks": {
+                    "awaiting": "Chargement...",
+                    "banned": "L'addon Workshop est interdit par le serveur!",
+                    "in_use": "Cet addon est déjà utilisé par un autre métier!"
+                  },
+                  "loading": {
+                    "loading_info": "Chargement des informations sur l'addon",
+                    "error": "Erreur du Workshop. Code: :code:",
+                    "disabled": "Cet addon a été désactivé",
+                    "banned": "Cet addon a été banni",
+                    "downloading": "Téléchargement de l'addon",
+                    "unable_to_download": "Impossible de télécharger l'addon",
+                    "mounting": "Montage de l'addon",
+                    "unable_to_mount": "Impossible de monter l'addon",
+                    "no_files": "L'addon ne contient aucun fichier",
+                    "no_player_models": "Impossible de trouver des modèles"
+                  },
+                  "too_many": {
+                    "title": "Modèles maximum atteints!",
+                    "description": "Vous ne pouvez pas ajouter plus de modèles! Vous êtes à la limite",
+                    "replace_button": "Remplacer le dernier modèle",
+                    "nevermind_button": "Annuler"
+                  }
+                },
+                "preview": {
+                  "bodygroups": "Bodygroups",
+                  "price": "Prix"
+                }
+              }
+            },
+            "owners": {
+              "title": "Propriétaires",
+              "overview": {
+                "title": ":amount: {{ grammaticalNumber(propriétaire, :amount:) }}, :multiplier:x price",
+                "add_button": "Ajouter un propriétaire"
+              },
+              "add_owner": {
+                "input_placeholder": "SteamID64 du nouveau propriétaire",
+                "no_player_name": "Aucun joueur",
+                "primary_owner": "Principal",
+                "additional_owner": "Secondaire",
+                "fetching": "Recherche en cours..."
+              }
+            },
+            "checkout": {
+              "title": "Paiement",
+              "overview": "Vue d'ensemble",
+              "unable_to_afford": "Impossibilité de payer",
+              "validation": {
+                "validating": "Validation du métier",
+                "waiting_for_server": "En attente du serveur"
+              },
+              "fields": {
+                "name": {
+                  "title": "Name",
+                  "empty": "Métier personnalisé"
+                },
+                "salary": "Salaire",
+                "health": "Vie supplémentaire",
+                "armor": "Armure supplémentaire",
+                "gun_license": "Licence d'arme à feu",
+                "weapons": "Armes",
+                "models": "Modèles",
+                "owner_multiplier": "Multiplicateur du propriétaire",
+                "total": "Totale",
+                "button": "Acheter le métier",
+                "responses": [
+                  "Succès!",
+                  "Erreur inconnue",
+                  "Métier non valide!",
+                  "Impossible de payer le métier"
+                ],
+                "errors": [
+                  "Il n'y a pas de nom",
+                  "Le nom est trop court",
+                  "Le nom est trop long",
+                  "Le nom contient un mot figurant sur la liste noire",
+                  "Le métier n'a pas de salaire",
+                  "Le salaire est trop bas",
+                  "Le salaire est trop élevé",
+                  "Le métier n'a pas de couleur",
+                  "La couleur n'est pas valide",
+                  "Vous avez une arme non valide",
+                  "Vous avez trop d'armes",
+                  "Vous avez un modèle invalide",
+                  "Vous avez trop de modèles",
+                  "Vous avez besoin au moins d'un modèle",
+                  "Vous avez un propriétaire non valide",
+                  "La vie n'est pas valide.",
+                  "La vie est trop élevée",
+                  "L'armure n'est pas valide",
+                  "L'armure est trop élevé",
+                  "Vous ne pouvez pas vous le permettre.",
+                  "Vous avez déjà le maximum de métiers",
+                  "L'addon Workshop est sur la liste des interdictions"
+                ]
+              },
+              "credits": {
+                "cancel": "Annuler",
+                "currency_format": "+:currency:"
+              }
+            }
+          }
+        },
+        "main_menu": {
+          "inspect": {
+            "worth": "Valeur",
+            "edit_job": "Éditer",
+            "go_back": "Retour",
+            "delete": "Supprimer",
+            "delete_modal": {
+              "title": "Supprimer :name:",
+              "description": "Êtes-vous sûr de vouloir supprimer ce métier personnalisé? Vous ne serez pas remboursés.",
+              "yes": "Oui",
+              "no": "Non"
+            },
+            "fields": {
+              "name": "Nom",
+              "salary": "Salaire",
+              "color": "Couleur"
+            }
+          },
+          "job": {
+            "inspect": "INSPECTER",
+            "empty": "VIDE",
+            "create_new": "CRÉER",
+            "disabled_job": "MÉTIER DÉSACTIVÉ"
+          },
+          "tabs": {
+            "your_jobs": "VOS MÉTIERS",
+            "shared_jobs": "MÉTIERS PARTAGÉS"
+          },
+          "credits": {
+            "you_have": "Vous disposez de"
+          }
+        },
+        "admin": {
+          "tabs": {
+            "job_management": {
+              "title": "Gestion des métiers",
+              "subtitle": "Gérer les métiers"
+            },
+            "job_approval": {
+              "title": "Approbation des métiers",
+              "subtitle": "Approuver les métiers désactivés"
+            },
+            "job_creator": {
+              "title": "Créateur de métiers",
+              "subtitle": "Créer des métiers manuellement"
+            },
+            "job_editor": {
+              "title": "Éditeur de métiers",
+              "subtitle": "Modifier les métiers"
+            },
+            "workshop_bans": {
+              "title": "Interdictions Workshop",
+              "subtitle": "Interdire des addons Workshop"
+            },
+            "player_manager": {
+              "title": "Gestionnaire de joueur",
+              "subtitle": "Gérer les joueurs"
+            }
+          },
+          "job_inspector": {
+            "title": "Inspection des métiers",
+            "loading": "Chargement"
+          },
+          "approval_queue": {
+            "top": {
+              "search": "Recherche par nom de métier",
+              "manually_disabled_job": "Afficher les métiers désactivés manuellement"
+            },
+            "disabled_reasons": [
+              "En attente de l'approbation manuelle",
+              "Désactivé par un administrateur",
+              "Le modèle Workshop a changé, et le modèle est trop petit!",
+              "Le modèle Workshop a changé, et le modèle est trop grand!",
+              "Le modèle Workshop a changé, et le changement de taille est trop drastique!"
+            ],
+            "loading": "Chargement",
+            "no_results": "Aucun résultat",
+            "popup": {
+              "inspect": "Inspecter le métier",
+              "accept": "Accepter le métier",
+              "decline": "Refuser le métier"
+            }
+          },
+          "create": {
+            "import": {
+              "button": "Importer un métier en Lua",
+              "clear_button": "Effacer le métier",
+              "popup": {
+                "import_button": "Importer un métier",
+                "title": "Code Lua",
+                "placeholder": "Collez le code Lua du métier que vous souhaitez importer."
+              }
+            }
+          },
+          "bans": {
+            "search": "Recherche par id/nom",
+            "add": {
+              "button": "Ajouter une interdiction",
+              "modal": {
+                "title": "",
+                "ban_button": "Interdire",
+                "info": {
+                  "name": {
+                    "title": "Nom",
+                    "content": ":title:"
+                  },
+                  "size": {
+                    "title": "Taille",
+                    "content": ":size: MO"
+                  },
+                  "uniqueViews": {
+                    "title": "Vues uniques",
+                    "content": ":views:"
+                  },
+                  "subscriptions": {
+                    "title": "Abonnements",
+                    "content": ":subscriptions:"
+                  },
+                  "favorites": {
+                    "title": "Favoris",
+                    "content": ":favorites:"
+                  },
+                  "posted": {
+                    "title": "Posté le",
+                    "content": "{{ fullDate(:epoch:) }}"
+                  },
+                  "last_updated": {
+                    "title": "Dernière mise à jour le",
+                    "content": "{{ fullDate(:epoch:) }}"
+                  }
+                }
+              }
+            },
+            "title": {
+              "filter": ":filterHits:/:total: {{ grammaticalNumber(addon, :total:) }} {{ grammaticalNumber(visible, :total:) }}",
+              "normal": ":total: {{ grammaticalNumber(addon, :total:) }} {{ grammaticalNumber(banni, :total:) }}"
+            },
+            "grid": {
+              "open_addon": {
+                "button": "Ouvrir l'addon"
+              },
+              "remove_ban": {
+                "button": "Débannir",
+                "modal": {
+                  "title": "Débannir",
+                  "description": "Êtes-vous sûr de vouloir supprimer le bannissement?",
+                  "yes": "Oui",
+                  "no": "Non"
+                }
+              },
+              "id": "id: :id:"
+            }
+          },
+          "management": {
+            "top": {
+              "search": "Search by job name",
+              "offline_players": "Show offline players jobs"
+            },
+            "loading": "Loading",
+            "no_results": "No Results",
+            "subtitle": "Owned by :name: (:sid:)",
+            "popup": {
+              "inspect": "Inspect Job",
+              "enable": "Enable Job",
+              "disable": "Disable Job"
+            }
+          }
+        },
+        "hud": {
+          "fetching": "Récupération des informations",
+          "status": [
+            "Démarrage du téléchargement",
+            "Téléchargement",
+            "Montage",
+            "Terminé",
+            "Erreur"
+          ]
+        },
+        "config": {
+          "auto_update": "Mise à jour automatique",
+          "beta": "Bêta",
+          "locked": "Verrouillé à cette version",
+          "changelogs": "Changements",
+          "lock": "Verrouiller à cette version",
+          "lock_modal": {
+            "title": "Verrouiller à la version :version:",
+            "description": "L'addon ne se mettra plus à jour automatiquement si vous verrouillez la version.",
+            "yes": "Oui",
+            "no": "Non"
+          },
+          "loading": "Chargement des versions",
+          "unable_to_load": "Impossible de charger les versions!"
+        }
+      },
+      "notifications": {
+        "currency_given": {
+          "text": "Vous avez reçu :amount:"
+        },
+        "disabled_job": {
+          "content": "Votre métier [:jobName:] a été automatiquement désactivée en raison d'une mise à jour plus importante que celle autorisée pour l'addon workshop.\nElle a été placée dans la file d'attente d'approbation et attend qu'un administrateur l'examine.",
+          "popup": {
+            "view": {
+              "text": "Voir le métier",
+              "loading": "Récupération de votre métier depuis la base de données"
+            }
+          }
+        }
+      }
+    },
+    "functions": {
+      "grammaticalNumber": "local args = { ... }; local str = args[1]; local input = args[2]; return str .. (tonumber(input) != 1 and 's' or '')",
+      "fullDate": "local args = { ... }; local epoch = tonumber(args[1]); return os.date('%d %b, %Y @ %I:%M %p', epoch)"
+    }
+  }
