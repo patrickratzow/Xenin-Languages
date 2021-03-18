@@ -1,0 +1,411 @@
+{
+  "phrases": {
+    "ui": {
+      "job_editor": {
+        "shared": {
+          "search": "Suchen",
+          "cancel": "Abbrechen",
+          "go_back": "Zurück",
+          "save": "Speichern",
+          "total_price": "Gesamtpreis",
+          "total_price_multiplier": "Gesamtpreis @ :multiplier:x",
+          "update_price": "Preis aktualisieren",
+          "free": "Gratis"
+        },
+        "steps": {
+          "basics": {
+            "title": "Job Standarts",
+            "fields": {
+              "name": {
+                "title": "Name",
+                "input_placeholder": "Job Name",
+                "hint": {
+                  "too_few": "Zu wenig Zeichen! Mindestens :minimum: Zeichen",
+                  "too_many": "Zu viele Zeichen! :characters:/:max: Zeichen",
+                  "illegal": "Unerlaubter Name!",
+                  "valid": ":characters:/:max: Zeichen"
+                }
+              },
+              "salary": {
+                "title": "Gehalt",
+                "invalid": "Ungültiges Gehalt"
+              },
+              "color": {
+                "title": "Farbe"
+              },
+              "gun_license": {
+                "title": "Waffenlizenz"
+              },
+              "start_health": {
+                "title": "Start Leben",
+                "symbol": "HP"
+              },
+              "start_armor": {
+                "title": "Start Rüstung",
+                "symbol": "RP"
+              },
+              "description": {
+                "title": "Beschreibung",
+                "input_placeholder": "Job Beschreibung",
+                "hint": {
+                  "valid": ":characters:/:max: Zeichen",
+                  "invalid": "Ungültige Beschreibung!"
+                }
+              },
+              "category": {
+                "title": "Job Kategorie"
+              }
+            }
+          },
+          "weapons": {
+            "title": "Waffen",
+            "overview": {
+              "empty": ":amount:/:max: {{ grammaticalNumber(Waffen, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(Waffen, :max:) }}, insgesammt :price:"
+            },
+            "edit_button": "Waffen bearbeiten",
+            "no_weapons_selected": "Keine Waffen ausgewählt"
+          },
+          "models": {
+            "title": "Models",
+            "overview": {
+              "empty": ":amount:/:max: {{ grammaticalNumber(Models, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(Models, :max:) }}, insgesammt :price:"
+            },
+            "change_model": "Model wechseln",
+            "edit_button": "Models bearbeiten",
+            "import_button": "Model importieren",
+            "unable_to_find_name": "Name kann nicht gefunden werden ",
+            "fetching": "Lade...",
+            "worth": "Wert",
+            "model_source": {
+              "select": "Model hochladen",
+              "or": "oder",
+              "go_to_selected_model": "Gehe zu ausgewählten Models"
+            },
+            "no_models_selected": "Kein Model ausgewählt",
+            "import": {
+              "workshop": {
+                "overview": "Model importieren",
+                "title": "Workshop URL",
+                "subtitle": ":base: + 1MB x :price:",
+                "continue_button": "Fortfahren",
+                "invalid_url": "Ungültige URL",
+                "checks": {
+                  "awaiting": "Lade...",
+                  "banned": "Dieses Addon wurde blockiert!",
+                  "in_use": "Dieses Addon wird bereits von einem anderen Job verwendet!"
+                },
+                "loading": {
+                  "loading_info": "Lade Addon Infos",
+                  "error": "Workshop Fehler. Code: :code:",
+                  "disabled": "Dieses Addon wurde deaktiviert",
+                  "banned": "Dieses Addon wurde blockiert",
+                  "downloading": "Addon wird heruntergeladen",
+                  "unable_to_download": "Addon kann nicht heruntergeladen werden",
+                  "mounting": "Bereite Addon vor",
+                  "unable_to_mount": "Addon kann nicht vorbereitet werden",
+                  "no_files": "Dieses Addon hat keine Inhalte",
+                  "no_player_models": "Es konnten keine Playermodels gefunden werden"
+                },
+                "too_many": {
+                  "title": "Maximale Models erreicht!",
+                  "description": "Du kannst keine weiteren Models hinzufügen! Das Limit wurde erreicht",
+                  "replace_button": "Ersetze das neueste Modell",
+                  "nevermind_button": "Überspringen"
+                }
+              },
+              "preview": {
+                "bodygroups": "Bodygruppen",
+                "price": "Preis"
+              }
+            }
+          },
+          "owners": {
+            "title": "Besitzer",
+            "overview": {
+              "title": ":amount: {{ grammaticalNumber(Besitzer, :amount:) }}, :multiplier:x Preis",
+              "add_button": "Besitzer hinzufügen"
+            },
+            "add_owner": {
+              "input_placeholder": "SteamID64 des Nutzers",
+              "no_player_name": "Kein Spieler",
+              "primary_owner": "Primär",
+              "additional_owner": "Sekundär",
+              "fetching": "Lade..."
+            }
+          },
+          "checkout": {
+            "title": "Überprüfen",
+            "overview": "Auflistung",
+            "unable_to_afford": "Das kannst du dir nicht leisten",
+            "validation": {
+              "validating": "Job wird bestätigt",
+              "waiting_for_server": "Warte auf Server"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "empty": "Custom Job"
+              },
+              "salary": "Gehalt",
+              "health": "Extra Leben",
+              "armor": "Extra Rüstung",
+              "gun_license": "Waffenlizenz",
+              "weapons": "Waffen",
+              "models": "Models",
+              "owner_multiplier": "Besitzer Multiplikator",
+              "total": "Gesamt",
+              "button": "Job kaufen",
+              "responses": [
+                "Erfolgreich!",
+                "Unbekanntes Fehler",
+                "Ungültiger Job!",
+                "Du kannst dir das nicht leisten"
+              ],
+              "errors": [
+                "Kein name angegeben",
+                "Der Name ist zu kurz",
+                "Der Name ist zu lang",
+                "Der Name beinhaltet unerlaubte Worte",
+                "Der Job hat kein Gehalt",
+                "Das Gehalt ist zu niedrig",
+                "Das Gehalt ist zu hoch",
+                "Der Job hat keine Farbe",
+                "Die Farbe ist ungültig",
+                "Du hast eine ungültige Waffe",
+                "Du hast zu viele Waffen",
+                "Du hast ein ungültiges Model",
+                "Du hast zu viele Models",
+                "Du brauchst mindestens ein Model",
+                "Du hast einen ungültigen Besitzer",
+                "Des Leben sind ungültig",
+                "Das Leben ist zu hock",
+                "Die Rüstung ist ungültig",
+                "Die Rüstung ist zu hoch",
+                "Du kasnnst di das nicht leisten",
+                "Du hast bereits die maximale Zahl an Berufen erreicht",
+                "Dieses Workshop-Addon ist auf der Blacklist"
+              ]
+            },
+            "credits": {
+              "cancel": "Abbrechen",
+              "currency_format": "+:currency:"
+            }
+          }
+        }
+      },
+      "main_menu": {
+        "inspect": {
+          "worth": "Wert",
+          "edit_job": "Job bearbeiten",
+          "go_back": "Zurück",
+          "delete": "Löschen",
+          "delete_modal": {
+            "title": ":name: löschen",
+            "description": "Möchtest du diesen Job wirklich löschen? Deine Zahlung wird nicht zurückerstattet",
+            "yes": "Ja",
+            "no": "Nein"
+          },
+          "fields": {
+            "name": "Name",
+            "salary": "Gehalt",
+            "color": "Farbe"
+          }
+        },
+        "job": {
+          "inspect": "UNTERSUCHEN",
+          "empty": "LEER",
+          "create_new": "ERSTELLEN",
+          "disabled_job": "DEAKTIVIERT"
+        },
+        "tabs": {
+          "your_jobs": "DEINE JOBS",
+          "shared_jobs": "GETEILTE JOBS"
+        },
+        "credits": {
+          "you_have": "Du hast"
+        }
+      },
+      "admin": {
+        "tabs": {
+          "job_management": {
+            "title": "Job Manager",
+            "subtitle": "Jobs bearbeiten"
+          },
+          "job_approval": {
+            "title": "Job Anfragen",
+            "subtitle": "Genehmigen sie Jobs"
+          },
+          "job_creator": {
+            "title": "Job Ersteller",
+            "subtitle": "Erstelle Jobs manuell"
+          },
+          "job_editor": {
+            "title": "Job Editor",
+            "subtitle": "Bearbeite Jobs"
+          },
+          "workshop_bans": {
+            "title": "Workshop Bans",
+            "subtitle": "Blockier Workshop Addons"
+          },
+          "player_manager": {
+            "title": "Spieler Manager",
+            "subtitle": "Spieler organisieren"
+          }
+        },
+        "job_inspector": {
+          "title": "Job Untersuchen",
+          "loading": "Lade"
+        },
+        "approval_queue": {
+          "top": {
+            "search": "Job beim Namen suchen",
+            "manually_disabled_job": "Zeige deaktivierte Jobs"
+          },
+          "disabled_reasons": [
+            "Warte auf manuelle Bestätigung",
+            "Durch Admin deaktiviert",
+            "Das Model wurde bearbeitet und ist nun zu klein!",
+            "Das Model wurde bearbeitet und ist nun zu groß!",
+            "Das Model hat sich geändert und die Größenänderung ist zu drastisch!"
+          ],
+          "loading": "Lade",
+          "no_results": "Kein Ergebnis",
+          "popup": {
+            "inspect": "Job untersuchen",
+            "accept": "Job akzeptieren",
+            "decline": "Job ablehnen"
+          }
+        },
+        "create": {
+          "import": {
+            "button": "Lua Job importieren",
+            "clear_button": "Job leeren",
+            "popup": {
+              "import_button": "Job importieren",
+              "title": "Lua code",
+              "placeholder": "Füge den Lua code für den Job den du importieren möchtest ein"
+            }
+          }
+        },
+        "bans": {
+          "search": "Bei id/name suchen",
+          "add": {
+            "button": "Ban hinzufügen",
+            "modal": {
+              "title": "",
+              "ban_button": "Bannen",
+              "info": {
+                "name": {
+                  "title": "Name",
+                  "content": ":title:"
+                },
+                "size": {
+                  "title": "Größe",
+                  "content": ":size: MB"
+                },
+                "uniqueViews": {
+                  "title": "Einzigartige Ansichten",
+                  "content": ":views:"
+                },
+                "subscriptions": {
+                  "title": "Abos",
+                  "content": ":subscriptions:"
+                },
+                "favorites": {
+                  "title": "Favouriten",
+                  "content": ":favorites:"
+                },
+                "posted": {
+                  "title": "Gepostet",
+                  "content": "{{ fullDate(:epoch:) }}"
+                },
+                "last_updated": {
+                  "title": "Letztes Update",
+                  "content": "{{ fullDate(:epoch:) }}"
+                }
+              }
+            }
+          },
+          "title": {
+            "filter": ":filterHits:/:total: {{ grammaticalNumber(Addons, :total:) }} sichtbar",
+            "normal": ":total: {{ grammaticalNumber(Addons, :total:) }} gebannt"
+          },
+          "grid": {
+            "open_addon": {
+              "button": "Addon öfnnen"
+            },
+            "remove_ban": {
+              "button": "Ban entfernen",
+              "modal": {
+                "title": "Ban entfernen",
+                "description": "Bist du dir sicher, dass du den Ban entfernen möchtest?",
+                "yes": "Ja",
+                "no": "Nein"
+              }
+            },
+            "id": "id: :id:"
+          }
+        },
+        "management": {
+          "top": {
+            "search": "Suche Job beim Namen",
+            "offline_players": "Zeige Jobs von offline Spielern"
+          },
+          "loading": "Lade",
+          "no_results": "Kein Ergebnis",
+          "subtitle": "Besitzer: :name: (:sid:)",
+          "popup": {
+            "inspect": "Job untersuchen",
+            "enable": "Job aktivieren",
+            "disable": "Job deaktivieren"
+          }
+        }
+      },
+      "hud": {
+        "fetching": "Bereite Infos vor",
+        "status": [
+          "Starte Download",
+          "Lade runter",
+          "Breite vor",
+          "Abgeschlossen",
+          "Fehler"
+        ]
+      },
+      "config": {
+        "auto_update": "Automatisch aktuallisieren",
+        "beta": "Beta",
+        "locked": "In dieser Version gesperrt",
+        "changelogs": "Changelogs",
+        "lock": "In dieser version sperren",
+        "lock_modal": {
+          "title": "Die Version :version: sperren",
+          "description": "Das Addon wird nicht mehr aktuallisiert, wenn du es sperrst.",
+          "yes": "Ja, das ist ok",
+          "no": "Egal"
+        },
+        "loading": "Lade Versionen",
+        "unable_to_load": "Kann die Version nicht automatisch aktuallisieren"
+      }
+    },
+    "notifications": {
+      "currency_given": {
+        "text": "Dir wurde :amount: gegeben"
+      },
+      "disabled_job": {
+        "content": "Dein [:jobName:] Job wurde Aufgrund eines zu großen Workshop-Addon update automatisch gesperrt.\n Es wurde in die Genehmigungswarteschlange gestellt und wartet darauf, dass ein Administrator es sich ansieht",
+        "popup": {
+          "view": {
+            "text": "Job anzeigen",
+            "loading": "Lade Job von Datenbank runter"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "grammaticalNumber": "local args = { ... }; local str = args[1]; local input = args[2]; return str .. (tonumber(input) != 1 and '' or '')",
+    "fullDate": "local args = { ... }; local epoch = tonumber(args[1]); return os.date('%d %b, %Y @ %I:%M %p', epoch)"
+  }
+}
