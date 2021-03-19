@@ -21,7 +21,7 @@
                 "input_placeholder": "Job Name",
                 "hint": {
                   "too_few": "Zu wenig Zeichen! Mindestens :minimum: Zeichen",
-                  "too_many": "Zu viele Zeichen! :characters:/:max: Zeichen",
+                  "too_many": "Zu viele Zeichen! Maximal :max: Zeichen",
                   "illegal": "Unerlaubter Name!",
                   "valid": ":characters:/:max: Zeichen"
                 }
@@ -61,7 +61,7 @@
             "title": "Waffen",
             "overview": {
               "empty": ":amount:/:max: {{ grammaticalNumber(Waffen, :max:) }}",
-              "not_empty": ":amount:/:max: {{ grammaticalNumber(Waffen, :max:) }}, insgesammt :price:"
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(Waffen, :max:) }}, insgesamt :price:"
             },
             "edit_button": "Waffen bearbeiten",
             "no_weapons_selected": "Keine Waffen ausgewählt"
@@ -70,12 +70,12 @@
             "title": "Models",
             "overview": {
               "empty": ":amount:/:max: {{ grammaticalNumber(Models, :max:) }}",
-              "not_empty": ":amount:/:max: {{ grammaticalNumber(Models, :max:) }}, insgesammt :price:"
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(Models, :max:) }}, insgesamt :price:"
             },
             "change_model": "Model wechseln",
             "edit_button": "Models bearbeiten",
             "import_button": "Model importieren",
-            "unable_to_find_name": "Name kann nicht gefunden werden ",
+            "unable_to_find_name": "Name kann nicht gefunden werden",
             "fetching": "Lade...",
             "worth": "Wert",
             "model_source": {
@@ -111,7 +111,7 @@
                 "too_many": {
                   "title": "Maximale Models erreicht!",
                   "description": "Du kannst keine weiteren Models hinzufügen! Das Limit wurde erreicht",
-                  "replace_button": "Ersetze das neueste Modell",
+                  "replace_button": "Ersetze das neueste Model",
                   "nevermind_button": "Überspringen"
                 }
               },
@@ -159,12 +159,12 @@
               "button": "Job kaufen",
               "responses": [
                 "Erfolgreich!",
-                "Unbekanntes Fehler",
+                "Unbekannter Fehler",
                 "Ungültiger Job!",
                 "Du kannst dir das nicht leisten"
               ],
               "errors": [
-                "Kein name angegeben",
+                "Kein Name angegeben",
                 "Der Name ist zu kurz",
                 "Der Name ist zu lang",
                 "Der Name beinhaltet unerlaubte Worte",
@@ -179,11 +179,11 @@
                 "Du hast zu viele Models",
                 "Du brauchst mindestens ein Model",
                 "Du hast einen ungültigen Besitzer",
-                "Des Leben sind ungültig",
-                "Das Leben ist zu hock",
+                "Das Leben ist ungültig",
+                "Das Leben ist zu hoch",
                 "Die Rüstung ist ungültig",
                 "Die Rüstung ist zu hoch",
-                "Du kasnnst di das nicht leisten",
+                "Du kasnnst dir das nicht leisten",
                 "Du hast bereits die maximale Zahl an Berufen erreicht",
                 "Dieses Workshop-Addon ist auf der Blacklist"
               ]
@@ -235,7 +235,7 @@
           },
           "job_approval": {
             "title": "Job Anfragen",
-            "subtitle": "Genehmigen sie Jobs"
+            "subtitle": "Genehmige Jobs"
           },
           "job_creator": {
             "title": "Job Ersteller",
@@ -251,7 +251,7 @@
           },
           "player_manager": {
             "title": "Spieler Manager",
-            "subtitle": "Spieler organisieren"
+            "subtitle": "Spieler managen"
           }
         },
         "job_inspector": {
@@ -260,7 +260,7 @@
         },
         "approval_queue": {
           "top": {
-            "search": "Job beim Namen suchen",
+            "search": "Beim Jobnamen suchen",
             "manually_disabled_job": "Zeige deaktivierte Jobs"
           },
           "disabled_reasons": [
@@ -350,7 +350,7 @@
         },
         "management": {
           "top": {
-            "search": "Suche Job beim Namen",
+            "search": "Beim Jobnamen suchen",
             "offline_players": "Zeige Jobs von offline Spielern"
           },
           "loading": "Lade",
@@ -374,19 +374,19 @@
         ]
       },
       "config": {
-        "auto_update": "Automatisch aktuallisieren",
+        "auto_update": "Automatisch aktualisieren",
         "beta": "Beta",
         "locked": "In dieser Version gesperrt",
         "changelogs": "Changelogs",
-        "lock": "In dieser version sperren",
+        "lock": "In dieser Version sperren",
         "lock_modal": {
           "title": "Die Version :version: sperren",
-          "description": "Das Addon wird nicht mehr aktuallisiert, wenn du es sperrst.",
-          "yes": "Ja, das ist ok",
-          "no": "Egal"
+          "description": "Das Addon wird nicht mehr aktualisiert, wenn du es sperrst.",
+          "yes": "Ok",
+          "no": "Abbrechen"
         },
         "loading": "Lade Versionen",
-        "unable_to_load": "Kann die Version nicht automatisch aktuallisieren"
+        "unable_to_load": "Kann die Version nicht automatisch aktualisieren"
       }
     },
     "notifications": {
