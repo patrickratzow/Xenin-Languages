@@ -1,0 +1,208 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Strona główna",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Łączna ilość pieniędzy"
+                    },
+                    "jobDistribution": {
+                        "title": "Wykres prac"
+                    },
+                    "richestPlayer": {
+                        "title": "Najbogatszy gracz",
+                        "economy": ":percentage:% udziału w ekonomii"
+                    }
+                },
+                "economy": {
+                    "name": "Wykres ekonomii",
+                    "noData": "Brak danych",
+                    "days": [
+                        "Dzisiaj",
+                        "1 dzień temu",
+                        "2 dni temu",
+                        "3 dni temu",
+                        "4 dni temu",
+                        "5 dni temu",
+                        "6 dni temu"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Ulubione prace",
+                "none": "Brak ulubionych prac :("
+            },
+            "onlineStaff": {
+                "title": "Administracja online",
+                "none": "Brak administracji online"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Szukaj...",
+                "sort": {
+                    "default": "Domyślne",
+                    "alphabetically": "Alfabetycznie",
+                    "highestSalary": "Od największej pensji",
+                    "lowestSalary": "Od najniższej pensji",
+                    "mostPeople": "Od najbardziej popularnych prac",
+                    "leastPeople": "Od najmniej popularnych prac"
+                },
+                "showRecentJobs": "Pokaż ostatnie prace",
+                "showFavouriteJobs": "Pokaż ulubione prace"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "OPIS",
+                    "weapons": "BRONIE",
+                    "ranks": "RANGI"
+                },
+                "levelRequirement": "Wymagany poziom: :level:",
+                "prestigeRequirement": "Prestiż: :prestige:",
+                "donatorJob": "Praca donatora!",
+                "button": {
+                    "become": "ZOSTAŃ",
+                    "areThisJob": "JESTEŚ JUŻ TĄ PRACĄ",
+                    "jobIsFull": "BRAK WOLNYCH MIEJSC",
+                    "customCheckFailed": "NIESPEŁNIASZ WYMAGAŃ!",
+                    "tooLowLevel": "ZBYT MAŁY POZIOM!",
+                    "tooLowPrestige": "ZBYT MAŁY POZIOM PRESTIŻU!"
+                },
+                "anHour": "/godz."
+            },
+            "favouriteJobs": "Ulubione prace",
+            "recentJobs": "Ostatnie prace",
+            "salary": "Pensja: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "PRZEDMIOTY",
+                "weapons": "BRONIE",
+                "shipments": "SKRZYNIE",
+                "ammo": "AMUNICJA",
+                "vehicles": "POJAZDY",
+                "food": "JEDZENIE"
+            },
+            "food": {
+                "categoryName": "Jedzenie"
+            },
+            "vehicles": {
+                "categoryName": "Pojazdy"  
+            },
+            "top": {
+                "search": "Szukaj po nazwie",
+                "sort": {
+                    "default": "Domyślne",
+                    "alphabetically": "Alfabetycznie",
+                    "highestPrice": "Cena malejąca",
+                    "lowestPrice": "Cena rosnąca"
+                },
+                "showFavourite": "Pokaż ulubione"
+            },
+            "favourites": "Ulubione"
+        },
+        "options": {
+            "general": {
+                "name": "Ogólne",
+                
+                "dropMoney": {
+                    "name": "Wyrzuć pieniądze",
+                    "desc": "Ilość pieniędzy, którą chcesz wyrzucić",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Przekaż pieniądze",
+                    "desc": "Przekaż pieniądze osobie na którą się patrzysz",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Zmień nazwę",
+                    "desc": "Wpisz swoją nową nazwę",
+                    "placeholder": "Nazwa"
+                },
+                "changeJobTitle": {
+                    "name": "Zmień nazwę pracy",
+                    "desc": "Wpisz swoją nową nazwę pracy",
+                    "placeholder": "Nazwa pracy"
+                },
+                "requestGunLicense": {
+                    "name": "Zażądaj licencję na broń"
+                },
+                "sellAllDoors": {
+                    "name": "Sprzedaj wszystkie posiadane drzwi"
+                },
+                "dropWeapon": {
+                    "name": "Wyrzuć broń"
+                },
+                "cheque": {
+                    "name": "Czek",
+                    "desc": "Wypisz czek dla gracza",
+                    "amount": "$1000"
+                }
+            },
+            "mayor": {
+                "name": "Burmistrz",
+                
+                "startLockdown": { 
+                    "name": "Rozpocznij lockdown"
+                },
+                "stopLockdown": {
+                    "name": "Zakończ lockdown"
+                },
+                "giveLicense": {
+                    "name": "Przyznaj licencję"
+                },
+                "addLaw": {
+                    "name": "Dodaj prawo",
+                    "desc": "Dodaje prawo miasta",
+                    "placeholder": "Nowe prawo"
+                },
+                "removeLaw": {
+                    "name": "Usuń prawo",
+                    "desc": "Usuwa wybrane prawo",
+                    "placeholder": "Numer prawa"
+                },
+                "resetLaws": {
+                    "name": "Zresetuj prawa miasta"
+                },
+                "placeLawboard": {
+                    "name": "Postaw tablicę z prawami"
+                },
+                "broadcastToCity": {
+                    "name": "Wyślij ogłoszenie",
+                    "desc": "Co chciałbyś im przekazać?",
+                    "placeholder": "Wiadomość"
+                },
+                "startLottery": {
+                    "name": "Rozpocznij loterię",
+                    "desc": "Wymagana ilość pieniędzy, aby dołączyć?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Policja",
+                
+                "wanted": {
+                    "name": "Zrób poszukiwanym",
+                    "desc": "Podaj powód & wybierz gracza",
+                    "placeholder": "Powód"
+                },
+                "warrant": {
+                    "name": "Wyślij nakaz przeszukania",
+                    "desc": "Podaj powód & wybierz gracza",
+                    "placeholder": "Powód"
+                },
+                "unwarrant": {
+                    "name": "Usuń nakaz przeszukania",
+                    "desc": "Wybierz gracza"
+                }
+            }
+        }
+    }
+}

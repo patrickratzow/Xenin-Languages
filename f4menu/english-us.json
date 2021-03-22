@@ -1,0 +1,177 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "General",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Total money"
+                    },
+                    "jobDistribution": {
+                        "title": "Job distribution"
+                    },
+                    "richestPlayer": {
+                        "title": "Richest player",
+                        "economy": ":percentage:% of economy"
+                    }
+                },
+                "economy": {
+                    "name": "Economy graph",
+                    "noData": "No Data",
+                    "days": [
+                        "Today",
+                        "1 day ago",
+                        "2 days ago",
+                        "3 days ago",
+                        "4 days ago",
+                        "5 days ago",
+                        "6 days ago"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Favorite jobs",
+                "none": "No favorite jobs"
+            },
+            "onlineStaff": {
+                "title": "Online Staff",
+                "none": "No online staff"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Search by job name",
+                "sort": {
+                    "default": "Default sort",
+                    "alphabetically": "Alphabetically",
+                    "highestSalary": "Highest salary",
+                    "lowestSalary": "Lowest salary",
+                    "mostPeople": "Most people",
+                    "leastPeople": "Least people"
+                },
+                "showRecentJobs": "Show recent jobs",
+                "showFavouriteJobs": "Show favorite jobs"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "DESCRIPTION",
+                    "weapons": "WEAPONS",
+                    "ranks": "RANKS"
+                },
+                "levelRequirement": "Level req: :level:",
+                "donatorJob": "Donator Job!",
+                "button": {
+                    "become": "BECOME",
+                    "areThisJob": "YOU ARE THIS JOB",
+                    "jobIsFull": "JOB IS FULL",
+                    "customCheckFailed": "CHECK FAILED",
+                    "tooLowLevel": "TOO LEVEL LEVEL"
+                },
+                "anHour": "/h"
+            },
+            "favouriteJobs": "favorite jobs",
+            "recentJobs": "Recent jobs",
+            "salary": "Salary: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ENTITIES",
+                "weapons": "WEAPONS",
+                "shipments": "SHIPMENTS",
+                "ammo": "AMMO",
+                "vehicles": "VEHICLES",
+                "food": "FOOD"
+            },
+            "top": {
+                "search": "Search by name",
+                "sort": {
+                    "default": "Default sort",
+                    "alphabetically": "Alphabetically",
+                    "highestPrice": "Highest price",
+                    "lowestPrice": "Lowest price"
+                },
+                "showFavourite": "Show favorite"
+            },
+            "favourites": "favorite"
+        },
+        "options": {
+            "general": {
+                "name": "General",
+                
+                "dropMoney": {
+                    "name": "Drop Money",
+                    "desc": "Amount of money you want to drop",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Give Money",
+                    "desc": "Give money to the person you are facing",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Change Name",
+                    "desc": "Type your new name out",
+                    "placeholder": "Name"
+                },
+                "changeJobTitle": {
+                    "name": "Change Job Title",
+                    "desc": "Type your new job title",
+                    "placeholder": "Job title"
+                },
+                "requestGunLicense": {
+                    "name": "Request Gun License"
+                },
+                "sellAllDoors": {
+                    "name": "Sell All Doors"
+                },
+                "dropWeapon": {
+                    "name": "Drop Weapon"
+                }
+            },
+            "mayor": {
+                "name": "Mayor",
+                
+                "startLockdown": { 
+                    "name": "Start Lockdown"
+                },
+                "stopLockdown": {
+                    "name": "Stop Lockdown"
+                },
+                "giveLicense": {
+                    "name": "Give License"
+                },
+                "addLaw": {
+                    "name": "Add Law",
+                    "desc": "Add a law",
+                    "placeholder": "Law"
+                },
+                "removeLaw": {
+                    "name": "Remove Law",
+                    "desc": "Remove a law",
+                    "placeholder": "Law"
+                },
+                "resetLaws": {
+                    "name": "Reset Laws"
+                },
+                "placeLawboard": {
+                    "name": "Place Lawboard"
+                },
+                "broadcastToCity": {
+                    "name": "Broadcast to the city",
+                    "desc": "What message would you like to broadcast?",
+                    "placeholder": "Message"
+                },
+                "startLottery": {
+                    "name": "Start Lottery",
+                    "desc": "How much money to enter the lottery?",
+                    "placeholder": "$1000"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Algemeen",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Total money"
+                    },
+                    "jobDistribution": {
+                        "title": "Baan verdeling"
+                    },
+                    "richestPlayer": {
+                        "title": "Rijkste Speler",
+                        "economy": ":percentage:% van economie"
+                    }
+                },
+                "economy": {
+                    "name": "Economie Grafiek",
+                    "noData": "Geen gegevens",
+                    "days": [
+                        "Vandaag",
+                        "1 dag geleden",
+                        "2 dagen geleden",
+                        "3 dagen geleden",
+                        "4 dagen geleden",
+                        "5 dagen geleden",
+                        "6 dagen geleden"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Favoriete banen",
+                "none": "Geen favoriete banen"
+            },
+            "onlineStaff": {
+                "title": "Online Staff",
+                "none": "Geen online staff"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Zoek bij baan titel",
+                "sort": {
+                    "default": "Standaard sortering",
+                    "alphabetically": "Alfabetisch",
+                    "highestSalary": "Hoogste salaris",
+                    "lowestSalary": "Laagste salaris",
+                    "mostPeople": "Meeste mensen",
+                    "leastPeople": "Minste mensen"
+                },
+                "showRecentJobs": "Toon recente banen",
+                "showFavouriteJobs": "Toon favoriete banen"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "BESCHRIJVING",
+                    "weapons": "WAPENS",
+                    "ranks": "RANGEN"
+                },
+                "levelRequirement": "Level: :level:",
+                "prestigeRequirement": "Prestige: :prestige:",
+                "donatorJob": "Donateur Baan!",
+                "button": {
+                    "become": "WORDT BAAN",
+                    "areThisJob": "JE BENT DEZE BAAN",
+                    "jobIsFull": "BAAN IS VOL",
+                    "customCheckFailed": "CONTROLE MISLUKT",
+                    "tooLowLevel": "TE LAAG LEVEL",
+                    "tooLowPrestige": "TE LAGE PRESTIGE"
+                },
+                "anHour": "/uur"
+            },
+            "favouriteJobs": "Favoriete banen",
+            "recentJobs": "Recente banen",
+            "salary": "Salaris: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ENTITIES",
+                "weapons": "WAPENS",
+                "shipments": "SHIPMENTS",
+                "ammo": "AMMUNITIE",
+                "vehicles": "VOERTUIGEN",
+                "food": "VOEDSEL"
+            },
+            "food": {
+                "categoryName": "Eten"
+            },
+            "vehicles": {
+                "categoryName": "Voertuigen"  
+            },
+            "top": {
+                "search": "Zoek bij name",
+                "sort": {
+                    "default": "Standaard sortering",
+                    "alphabetically": "Alfabetisch",
+                    "highestPrice": "Hoogste prijs",
+                    "lowestPrice": "Laagste prijs"
+                },
+                "showFavourite": "Toon favoriete"
+            },
+            "favourites": "Favoriete"
+        },
+        "options": {
+            "general": {
+                "name": "Algemeen",
+                
+                "dropMoney": {
+                    "name": "Laat Geld vallen",
+                    "desc": "Hoeveelheid geld om te laten vallen",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Geef Geld",
+                    "desc": "Geef geld aan de persoon die je aankijkt",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Verander Naam",
+                    "desc": "Typ je nieuwe naam",
+                    "placeholder": "Naam"
+                },
+                "changeJobTitle": {
+                    "name": "Verander Baan",
+                    "desc": "Typ de naam van je nieuwe baan",
+                    "placeholder": "Baan naam"
+                },
+                "requestGunLicense": {
+                    "name": "Vraag wapen licentie aan"
+                },
+                "sellAllDoors": {
+                    "name": "Verkoop alle deuren"
+                },
+                "dropWeapon": {
+                    "name": "Laat wapen vallen"
+                },
+                "cheque": {
+                    "name": "Cheque",
+                    "desc": "Schrijf een cheque naar een speler",
+                    "amount": "$1000"
+                }
+            },
+            "mayor": {
+                "name": "Burgemeester",
+                
+                "startLockdown": { 
+                    "name": "Start Lockdown"
+                },
+                "stopLockdown": {
+                    "name": "Stop Lockdown"
+                },
+                "giveLicense": {
+                    "name": "Geef Licentie"
+                },
+                "addLaw": {
+                    "name": "Voeg wet toe",
+                    "desc": "Voeg wet toe",
+                    "placeholder": "Wet"
+                },
+                "removeLaw": {
+                    "name": "Verwijder wet",
+                    "desc": "Verwijder een wet",
+                    "placeholder": "Wet"
+                },
+                "resetLaws": {
+                    "name": "Reset wetten"
+                },
+                "placeLawboard": {
+                    "name": "Plaats wetbord"
+                },
+                "broadcastToCity": {
+                    "name": "Zend uit naar stad",
+                    "desc": "Wat wil je uitzender naar de stad?",
+                    "placeholder": "Bericht"
+                },
+                "startLottery": {
+                    "name": "Start Loterij",
+                    "desc": "Hoeveel kost het om een lot te kopen?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Politie",
+                
+                "wanted": {
+                    "name": "Maak Gezocht",
+                    "desc": "Geef de reden en selecteer de speler",
+                    "placeholder": "Reden"
+                },
+                "warrant": {
+                    "name": "Maak Een Bevel",
+                    "desc": "Geef de reden en selecteer de speler",
+                    "placeholder": "Reden"
+                },
+                "unwarrant": {
+                    "name": "Verwijder een bevel",
+                    "desc": "Selecteer een speler"
+                }
+            }
+        }
+    }
+}

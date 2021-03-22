@@ -1,0 +1,183 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Général",
+                    
+                    "online": {
+                        "title": "En Ligne",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Argent totale"
+                    },
+                    "jobDistribution": {
+                        "title": "Distribution des métiers"
+                    },
+                    "richestPlayer": {
+                        "title": "Joueur le plus riche",
+                        "economy": ":percentage:% de l'économie"
+                    }
+                },
+                "economy": {
+                    "name": "Graphique de l'économie",
+                    "noData": "Aucune Données",
+                    "days": [
+                        "Aujourd'hui",
+                        "il y a 1 jour",
+                        "il y a 2 jours",
+                        "il y a 3 jours",
+                        "il y a 4 jours",
+                        "il y a 5 jours",
+                        "il y a 6 jours"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": " favoris",
+                "none": "Aucun métier favoris"
+            },
+            "onlineStaff": {
+                "title": "Membres du staff en ligne",
+                "none": "Aucun membre du staff en ligne"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Rechercher par nom",
+                "sort": {
+                    "default": "Classement par défaut",
+                    "alphabetically": "Alphabétiquement",
+                    "highestSalary": "Salaire plus élevé",
+                    "lowestSalary": "Salaire moins élevé",
+                    "mostPeople": "Plus de joueurs",
+                    "leastPeople": "Moins de joueurs"
+                },
+                "showRecentJobs": "Afficher les métiers récents",
+                "showFavouriteJobs": "Afficher les métiers favoris"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "DESCRIPTION",
+                    "weapons": "ARMES",
+                    "ranks": "RANGS"
+                },
+                "levelRequirement": "Niveau requis: :level:",
+                "donatorJob": "Donator Job!",
+                "button": {
+                    "become": "DEVENIR",
+                    "areThisJob": "VOTRE MÉTIER",
+                    "jobIsFull": "JOB IS FULL",
+                    "customCheckFailed": "CHECK FAILED",
+                    "tooLowLevel": "NIVEAU PAS ASSER ÉLEVÉ"
+                },
+                "anHour": "/h"
+            },
+            "favouriteJobs": "Métiers favoris",
+            "recentJobs": "Métiers récents",
+            "salary": "Salaire: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ENTITÉS",
+                "weapons": "ARMES",
+                "shipments": "CARGAISONS",
+                "ammo": "MUNITIONS",
+                "vehicles": "VÉHICULES",
+                "food": "NOURRITURE"
+            },
+            "food": {
+                "categoryName": "Nourriture"
+            },
+            "vehicles": {
+                "categoryName": "Véhicules"  
+            },
+            "top": {
+                "search": "Chercher par nom",
+                "sort": {
+                    "default": "Classement par défaut",
+                    "alphabetically": "Alphabétiquement",
+                    "highestPrice": "Prix élevé",
+                    "lowestPrice": "Prix faible"
+                },
+                "showFavourite": "Afficher favoris"
+            },
+            "favourites": "Favoris"
+        },
+        "options": {
+            "general": {
+                "name": "Général",
+                
+                "dropMoney": {
+                    "name": "Déposer De L'Argent",
+                    "desc": "Montant d'argent que vous souhaiter déposer",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Donner De L'Argent",
+                    "desc": "Donne de l'argent a la personne en face de vous",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Changer de Nom Roleplay",
+                    "desc": "Comment souhaitez-vous que l'on vous appele?",
+                    "placeholder": "Nom"
+                },
+                "changeJobTitle": {
+                    "name": "Changer De Métier",
+                    "desc": "Écrivez le nom de votre nouveau métier",
+                    "placeholder": "Nom du métier"
+                },
+                "requestGunLicense": {
+                    "name": "Demander Une Liscence D'Arme"
+                },
+                "sellAllDoors": {
+                    "name": "Vendre Toutes Les Portes"
+                },
+                "dropWeapon": {
+                    "name": "Déposer Votre Arme"
+                }
+            },
+            "mayor": {
+                "name": "Maire",
+                
+                "startLockdown": { 
+                    "name": "Commencer Un Couvre-Feux"
+                },
+                "stopLockdown": {
+                    "name": "Arreter Le Couvre-Feux"
+                },
+                "giveLicense": {
+                    "name": "Donner Une Liscence D'Arme"
+                },
+                "addLaw": {
+                    "name": "Ajouter Une Loi",
+                    "desc": "Ajouter une loi",
+                    "placeholder": "Loi"
+                },
+                "removeLaw": {
+                    "name": "Supprimer Une Loi",
+                    "desc": "Supprimer une loi",
+                    "placeholder": "Loi"
+                },
+                "resetLaws": {
+                    "name": "Réinitialiser Les Lois Par Défaut"
+                },
+                "placeLawboard": {
+                    "name": "Placer Un Tableau Des Lois"
+                },
+                "broadcastToCity": {
+                    "name": "Diffuser Un Message",
+                    "desc": "Diffuse un message a tous joueurs",
+                    "placeholder": "Message"
+                },
+                "startLottery": {
+                    "name": "Commencer Une Lotterie",
+                    "desc": "Prix a payer pour participer a la lotterie",
+                    "placeholder": "$1000"
+                }
+            }
+        }
+    }
+}

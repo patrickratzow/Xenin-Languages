@@ -1,0 +1,211 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Genel",
+                    
+                    "online": {
+                        "title": "Aktif",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Toplam para"
+                    },
+                    "jobDistribution": {
+                        "title": "Meslek dağılımı"
+                    },
+                    "richestPlayer": {
+                        "title": "Zengin oyuncu",
+                        "economy": "Ekonominin :percentage:%"
+                    }
+                },
+                "economy": {
+                    "name": "Ekonomi grafiği",
+                    "noData": "Veri yok",
+                    "days": [
+                        "Bugün",
+                        "1 gün önce",
+                        "2 gün önce",
+                        "3 gün önce",
+                        "4 gün önce",
+                        "5 gün önce",
+                        "6 gün önce"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Favori meslekler",
+                "none": "Favori mesleğin yok"
+            },
+            "onlineStaff": {
+                "title": "Aktif Yetkililer",
+                "none": "Aktif yetkili yok"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Meslek adına göre ara",
+                "sort": {
+                    "default": "Varsayılan sıralama",
+                    "alphabetically": "Alfabetik",
+                    "highestSalary": "Yüksek gelir",
+                    "lowestSalary": "Düşük gelir",
+                    "mostPeople": "Çoğunluk",
+                    "leastPeople": "Azınlık"
+                },
+                "showRecentJobs": "Seçilen meslekleri göster",
+                "showFavouriteJobs": "Favori meslekleri göster"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "AÇIKLAMA",
+                    "weapons": "SİLAHLAR",
+                    "ranks": "RÜTBELER"
+                },
+                "levelRequirement": "Gerekli seviye: :level:",
+				"prestigeRequirement": "Prestij: :prestige:",
+                "donatorJob": "Bağışçı Mesleği!",
+                "button": {
+                    "become": "SEÇ",
+                    "areThisJob": "SENİN MESLEĞİN",
+                    "jobIsFull": "MESLEK DOLU",
+                    "customCheckFailed": "KONTROL BAŞARISIZ",
+                    "tooLowLevel": "ÇOK SEVİYE LAZIM",
+					"tooLowPrestige": "ÇOK PRESTİJ LAZIM"
+                },
+                "anHour": "/saat",
+                "ranks": {
+                    "title": "Bu meslek için yeterli rütbeye sahip değilsin"
+                }
+            },
+            "favouriteJobs": "Favori meslekler",
+            "recentJobs": "Seçilmiş meslekler",
+            "salary": "Maaş: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "VARLIKLAR",
+                "weapons": "SİLAHLAR",
+                "shipments": "KUTULAR",
+                "ammo": "KURŞUN",
+                "vehicles": "ARAÇLAR",
+                "food": "YİYECEK"
+            },
+            "food": {
+                "categoryName": "Yiyecek"
+            },
+            "vehicles": {
+                "categoryName": "Araçlar"  
+            },
+            "top": {
+                "search": "Ad'a göre ara",
+                "sort": {
+                    "default": "Varsayılan sıralama",
+                    "alphabetically": "Alfabetik",
+                    "highestPrice": "Yüksek fiyat",
+                    "lowestPrice": "Düşük fiyat"
+                },
+                "showFavourite": "Favorileri göster"
+            },
+            "favourites": "Favoriler"
+        },
+        "options": {
+            "general": {
+                "name": "Genel",
+                
+                "dropMoney": {
+                    "name": "Para Bırak",
+                    "desc": "Bırakmak istediğiniz para miktarı",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Para Ver",
+                    "desc": "Baktığınız kişiye para verin",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "İsmini değiştir",
+                    "desc": "Yeni isminizi yazın",
+                    "placeholder": "İsim"
+                },
+                "changeJobTitle": {
+                    "name": "Meslek adını değiştir",
+                    "desc": "Yeni meslek adını girin",
+                    "placeholder": "Meslek adı"
+                },
+                "requestGunLicense": {
+                    "name": "Silah Lisansı İste"
+                },
+                "sellAllDoors": {
+                    "name": "Bütün Kapıları Sat"
+                },
+                "dropWeapon": {
+                    "name": "Silahını Bırak"
+                },
+                "cheque": {
+                    "name": "Çek",
+                    "desc": "Belirli bir oyuncuya çek yazma",
+                    "amount": "$1000"
+                }
+            },
+            "mayor": {
+                "name": "Başkan",
+                
+                "startLockdown": { 
+                    "name": "Sokağa Çıkma Yasağı Başlat"
+                },
+                "stopLockdown": {
+                    "name": "Sokağa Çıkma Yasağını Kaldır"
+                },
+                "giveLicense": {
+                    "name": "Lisans Ver"
+                },
+                "addLaw": {
+                    "name": "Yasa Ekle",
+                    "desc": "Yeni bir yasa ekle",
+                    "placeholder": "Yasa"
+                },
+                "removeLaw": {
+                    "name": "Yasayı Kaldır",
+                    "desc": "Bir yasayı kaldır",
+                    "placeholder": "Yasa"
+                },
+                "resetLaws": {
+                    "name": "Kanunları Sıfırla"
+                },
+                "placeLawboard": {
+                    "name": "Yasa tabelası oluştur"
+                },
+                "broadcastToCity": {
+                    "name": "Yayın yap",
+                    "desc": "Mesajını herkeze ulaştır?",
+                    "placeholder": "Mesaj"
+                },
+                "startLottery": {
+                    "name": "Piyango Başlat",
+                    "desc": "Piyangoya girmek için ne kadar para yatırıyorsun?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Polis",
+                
+                "wanted": {
+                    "name": "Arama Emri",
+                    "desc": "Sebep yazın ve bir oyuncu seçin",
+                    "placeholder": "Sebep"
+                },
+                "warrant": {
+                    "name": "Arama talep et",
+                    "desc": "Sebep yazın ve bir oyuncu seçin",
+                    "placeholder": "Sebep"
+                },
+                "unwarrant": {
+                    "name": "Arama talebini kaldır",
+                    "desc": "Oyuncu seç"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "일반",
+                    
+                    "online": {
+                        "title": "접속 중",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "총 금액"
+                    },
+                    "jobDistribution": {
+                        "title": "직업 분포도"
+                    },
+                    "richestPlayer": {
+                        "title": "가장 부유한 플레이어",
+                        "economy": "경제의 :percentage:% 를 차지"
+                    }
+                },
+                "economy": {
+                    "name": "경제 그래프",
+                    "noData": "데이터 없음",
+                    "days": [
+                        "오늘",
+                        "1일 전",
+                        "2일 전",
+                        "3일 전",
+                        "4일 전",
+                        "5일 전",
+                        "6일 전"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "즐겨찾는 직업",
+                "none": "즐겨찾는 직업 없음"
+            },
+            "onlineStaff": {
+                "title": "접속중인 관리자",
+                "none": "접속중인 관리자 없음"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "직업 이름으로 검색",
+                "sort": {
+                    "default": "기본 정렬",
+                    "alphabetically": "가나다순 정렬",
+                    "highestSalary": "높은 임금순으로 정렬",
+                    "lowestSalary": "낮은 임금순으로 정렬",
+                    "mostPeople": "Most people",
+                    "leastPeople": "Least people"
+                },
+                "showRecentJobs": "최근 직업 표시",
+                "showFavouriteJobs": "즐겨찾기한 직업 표시"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "설명",
+                    "weapons": "무기",
+                    "ranks": "랭크"
+                },
+                "levelRequirement": "레벨: :level:",
+                "prestigeRequirement": "명성: :prestige:",
+                "donatorJob": "후원자 직업!",
+                "button": {
+                    "become": "직업 결정하기",
+                    "areThisJob": "이미 해당 직업입니다",
+                    "jobIsFull": "직업에 공석이 없습니다",
+                    "customCheckFailed": "커스텀체크 실패",
+                    "tooLowLevel": "레벨이 낮습니다",
+                    "tooLowPrestige": "명성이 낮습니다"
+                },
+                "anHour": "/h",
+                "ranks": {
+                    "title": "해당 직업을 할 수 있는 랭크"
+                }
+            },
+            "favouriteJobs": "즐겨찾는 직업",
+            "recentJobs": "최근 직업",
+            "salary": "임금: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "엔티티",
+                "weapons": "무기",
+                "shipments": "군수품",
+                "ammo": "탄약",
+                "vehicles": "탈것",
+                "food": "음식"
+            },
+            "food": {
+                "categoryName": "음식"
+            },
+            "vehicles": {
+                "categoryName": "탈것"  
+            },
+            "top": {
+                "search": "이름으로 검색",
+                "sort": {
+                    "default": "기본 정렬",
+                    "alphabetically": "가나다순으로 정렬",
+                    "highestPrice": "높은 가격순으로 정렬",
+                    "lowestPrice": "낮은 가격순으로 정렬"
+                },
+                "showFavourite": "즐겨찾기 표시"
+            },
+            "favourites": "즐겨찾기"
+        },
+        "options": {
+            "general": {
+                "name": "기본",
+                
+                "dropMoney": {
+                    "name": "현금 떨어뜨리기",
+                    "desc": "입력한 액수만큼의 현금을 떨어뜨립니다",
+                    "placeholder": "금액"
+                },
+                "giveMoney": {
+                    "name": "현금 주기",
+                    "desc": "바라보고 있는 플레이어에게 현금을 보냅니다",
+                    "placeholder": "금액"
+                },
+                "changeName": {
+                    "name": "이름 변경",
+                    "desc": "새 이름으로 변경합니다",
+                    "placeholder": "이름"
+                },
+                "changeJobTitle": {
+                    "name": "직업 이름 변경",
+                    "desc": "직업 이름을 변경합니다",
+                    "placeholder": "직업 이름"
+                },
+                "requestGunLicense": {
+                    "name": "총기 라이센스 요청"
+                },
+                "sellAllDoors": {
+                    "name": "모든 문 판매"
+                },
+                "dropWeapon": {
+                    "name": "무기 떨어뜨리기"
+                },
+                "cheque": {
+                    "name": "수표",
+                    "desc": "특정 플레이어에게 수표를 작성합니다",
+                    "amount": "금액"
+                }
+            },
+            "mayor": {
+                "name": "시장",
+                
+                "startLockdown": { 
+                    "name": "락다운 시작"
+                },
+                "stopLockdown": {
+                    "name": "락다운 중지"
+                },
+                "giveLicense": {
+                    "name": "라이센스 주기"
+                },
+                "addLaw": {
+                    "name": "법 추가",
+                    "desc": "법을 추가합니다",
+                    "placeholder": "법 내용"
+                },
+                "removeLaw": {
+                    "name": "법 제거",
+                    "desc": "법을 제거합니다",
+                    "placeholder": "법 내용"
+                },
+                "resetLaws": {
+                    "name": "법 초기화"
+                },
+                "placeLawboard": {
+                    "name": "법판 소환"
+                },
+                "broadcastToCity": {
+                    "name": "도시 전체에 방송하기",
+                    "desc": "어떤 내용을 방송하시겠습니까?",
+                    "placeholder": "내용"
+                },
+                "startLottery": {
+                    "name": "복권 추첨하기",
+                    "desc": "얼마치의 금액을 당첨금으로 정하시겠습니까?",
+                    "placeholder": "금액"
+                }
+            },
+            "police": {
+                "name": "경찰",
+                
+                "wanted": {
+                    "name": "지명수배 작성",
+                    "desc": "사유를 작성하고 대상을 선택하세요",
+                    "placeholder": "사유"
+                },
+                "warrant": {
+                    "name": "수색영장 작성",
+                    "desc": "사유를 작성하고 대상을 선택하세요",
+                    "placeholder": "사유"
+                },
+                "unwarrant": {
+                    "name": "수색영장 철회",
+                    "desc": "대상을 선택하세요"
+                }
+            }
+        }
+    }
+}

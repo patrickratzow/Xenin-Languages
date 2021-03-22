@@ -1,0 +1,208 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "概览",
+                    
+                    "online": {
+                        "title": "在线",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "总金钱"
+                    },
+                    "jobDistribution": {
+                        "title": "职业描述"
+                    },
+                    "richestPlayer": {
+                        "title": "最富有玩家",
+                        "economy": ":percentage:% of economy"
+                    }
+                },
+                "economy": {
+                    "name": "经济示图",
+                    "noData": "无数据",
+                    "days": [
+                        "今天",
+                        "1 天前",
+                        "2 天前",
+                        "3 天前",
+                        "4 天前",
+                        "5 天前",
+                        "6 天前"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "最喜爱的工作",
+                "none": "无最喜爱的工作"
+            },
+            "onlineStaff": {
+                "title": "在线管理",
+                "none": "无管理员在线"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "按职业名称搜索",
+                "sort": {
+                    "default": "默认排序",
+                    "alphabetically": "按字母顺序",
+                    "highestSalary": "按最高工资",
+                    "lowestSalary": "按最低工资",
+                    "mostPeople": "最多玩家",
+                    "leastPeople": "最多玩家"
+                },
+                "showRecentJobs": "显示最近的工作",
+                "showFavouriteJobs": "显示最喜欢的工作"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "描述",
+                    "weapons": "武器",
+                    "ranks": "RANKS"
+                },
+                "levelRequirement": "等级: :level:",
+                "prestigeRequirement": "信誉: :prestige:",
+                "donatorJob": "捐赠者的工作!",
+                "button": {
+                    "become": "成为",
+                    "areThisJob": "你就是这个工作",
+                    "jobIsFull": "工作已满",
+                    "customCheckFailed": "检查失败",
+                    "tooLowLevel": "等级太低",
+                    "tooLowPrestige": "信誉太低"
+                },
+                "anHour": "/h"
+            },
+            "favouriteJobs": "最喜欢的工作",
+            "recentJobs": "最近的工作",
+            "salary": "工资: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "实体",
+                "weapons": "武器",
+                "shipments": "货物",
+                "ammo": "子弹",
+                "vehicles": "载具",
+                "food": "食物"
+            },
+            "food": {
+                "categoryName": "食物"
+            },
+            "vehicles": {
+                "categoryName": "载具"  
+            },
+            "top": {
+                "search": "按名字搜索",
+                "sort": {
+                    "default": "默认排序",
+                    "alphabetically": "按字母顺序",
+                    "highestPrice": "按最高工资",
+                    "lowestPrice": "按最低工资"
+                },
+                "showFavourite": "显示最喜欢的"
+            },
+            "favourites": "最喜欢的"
+        },
+        "options": {
+            "general": {
+                "name": "一般性",
+                
+                "dropMoney": {
+                    "name": "扔钱",
+                    "desc": "把钱扔在地上",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "给钱",
+                    "desc": "给准星处的人钱",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "改名字",
+                    "desc": "改名字",
+                    "placeholder": "Name"
+                },
+                "changeJobTitle": {
+                    "name": "修改职业名",
+                    "desc": "修改职业名字",
+                    "placeholder": "Job title"
+                },
+                "requestGunLicense": {
+                    "name": "请求持枪证"
+                },
+                "sellAllDoors": {
+                    "name": "卖掉所有门"
+                },
+                "dropWeapon": {
+                    "name": "扔枪"
+                },
+                "cheque": {
+                    "name": "支票",
+                    "desc": "写一张支票",
+                    "amount": "$1000"
+                }
+            },
+            "mayor": {
+                "name": "市长",
+                
+                "startLockdown": { 
+                    "name": "戒严令"
+                },
+                "stopLockdown": {
+                    "name": "解除戒严"
+                },
+                "giveLicense": {
+                    "name": "给持枪证"
+                },
+                "addLaw": {
+                    "name": "添加法律",
+                    "desc": "添加一条法律",
+                    "placeholder": "Law"
+                },
+                "removeLaw": {
+                    "name": "移除法律",
+                    "desc": "移除一条法律",
+                    "placeholder": "Law"
+                },
+                "resetLaws": {
+                    "name": "重置法律"
+                },
+                "placeLawboard": {
+                    "name": "放置法律公告"
+                },
+                "broadcastToCity": {
+                    "name": "发公告",
+                    "desc": "向全服广播?",
+                    "placeholder": "Message"
+                },
+                "startLottery": {
+                    "name": "抽奖",
+                    "desc": "开始抽奖?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "警察",
+                
+                "wanted": {
+                    "name": "通缉令",
+                    "desc": "通缉一个玩家",
+                    "placeholder": "Reason"
+                },
+                "warrant": {
+                    "name": "搜查令",
+                    "desc": "搜查一个玩家",
+                    "placeholder": "Reason"
+                },
+                "unwarrant": {
+                    "name": "移除搜查令",
+                    "desc": "移除搜查令"
+                }
+            }
+        }
+    }
+}

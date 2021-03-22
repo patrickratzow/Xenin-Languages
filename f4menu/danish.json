@@ -1,0 +1,177 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "General",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Samlede penge"
+                    },
+                    "jobDistribution": {
+                        "title": "Jobfordeling"
+                    },
+                    "richestPlayer": {
+                        "title": "Rigeste spiller",
+                        "economy": ":percentage:% af økonomien"
+                    }
+                },
+                "economy": {
+                    "name": "Økonomi graf",
+                    "noData": "Ingen data",
+                    "days": [
+                        "I dag",
+                        "1 dag siden",
+                        "2 dage siden",
+                        "3 dage siden",
+                        "4 dage siden",
+                        "5 dage siden",
+                        "6 dage siden"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Foretrukne job",
+                "none": "Ingen foretrukne job"
+            },
+            "onlineStaff": {
+                "title": "Online Staff",
+                "none": "Ingen online staff"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Søg efter jobnavn",
+                "sort": {
+                    "default": "Standard sortering",
+                    "alphabetically": "Alfabetisk",
+                    "highestSalary": "Højeste løn",
+                    "lowestSalary": "Laveste løn",
+                    "mostPeople": "Flest mennesker",
+                    "leastPeople": "Mindst mennesker"
+                },
+                "showRecentJobs": "Vis seneste job",
+                "showFavouriteJobs": "Vis foretrukne job"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "BESKRIVELSE",
+                    "weapons": "VÅBEN",
+                    "ranks": "RANGS"
+                },
+                "levelRequirement": "Niveau: :level:",
+                "donatorJob": "Donatorjob!",
+                "button": {
+                    "become": "SKIFT!",
+                    "areThisJob": "DU HAR DETTE JOB",
+                    "jobIsFull": "JOBBET ER FYLDT",
+                    "customCheckFailed": "TJEK FEJLEDE",
+                    "tooLowLevel": "For lavt niveau"
+                },
+                "anHour": "/h"
+            },
+            "favouriteJobs": "Foretrukne job",
+            "recentJobs": "Seneste job",
+            "salary": "Løn: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ENHEDER",
+                "weapons": "VÅBEN",
+                "shipments": "SHIPMENTS",
+                "ammo": "AMMO",
+                "vehicles": "KØRETØJER",
+                "food": "MAD"
+            },
+            "top": {
+                "search": "Søg efter navn",
+                "sort": {
+                    "default": "Standard sortering",
+                    "alphabetically": "Alfabetisk",
+                    "highestPrice": "Højeste pris",
+                    "lowestPrice": "Laveste pris"
+                },
+                "showFavourite": "Vis foretrukne"
+            },
+            "favourites": "foretrukne"
+        },
+        "options": {
+            "general": {
+                "name": "General",
+                
+                "dropMoney": {
+                    "name": "Smid Penge",
+                    "desc": "Hvor mange penge du vil smide",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Giv penge",
+                    "desc": "Giv penge til den person, du står overfor",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Ændre navn",
+                    "desc": "Skriv dit nye navn",
+                    "placeholder": "Navn"
+                },
+                "changeJobTitle": {
+                    "name": "Skift jobtitel",
+                    "desc": "Skriv din nye jobtitel",
+                    "placeholder": "Jobtitel"
+                },
+                "requestGunLicense": {
+                    "name": "Anmod om licens"
+                },
+                "sellAllDoors": {
+                    "name": "Sælg alle døre"
+                },
+                "dropWeapon": {
+                    "name": "Smid våben"
+                }
+            },
+            "mayor": {
+                "name": "Borgmester",
+                
+                "startLockdown": { 
+                    "name": "Start nedlåsning"
+                },
+                "stopLockdown": {
+                    "name": "Stop nedlåsning"
+                },
+                "giveLicense": {
+                    "name": "Give License"
+                },
+                "addLaw": {
+                    "name": "Tilføj lov",
+                    "desc": "Tilføj en lov",
+                    "placeholder": "Lov"
+                },
+                "removeLaw": {
+                    "name": "Fjern lov",
+                    "desc": "Fjern en lov",
+                    "placeholder": "Lov"
+                },
+                "resetLaws": {
+                    "name": "Nulstil love"
+                },
+                "placeLawboard": {
+                    "name": "Placer lovsklit"
+                },
+                "broadcastToCity": {
+                    "name": "Broadcast til byen",
+                    "desc": "Hvilken meddelelse vil du sende?",
+                    "placeholder": "Besked"
+                },
+                "startLottery": {
+                    "name": "Start Lotteri",
+                    "desc": "Hvor mange penge skal du gå ind i lotteriet?",
+                    "placeholder": "$1000"
+                }
+            }
+        }
+    }
+}

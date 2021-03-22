@@ -1,0 +1,195 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Allgemein",
+                    
+                    "online": {
+                        "title": "Online",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Gesamte Wirtschaft"
+                    },
+                    "jobDistribution": {
+                        "title": "Job Verteilung"
+                    },
+                    "richestPlayer": {
+                        "title": "Reichster Spieler",
+                        "economy": ":percentage:% der Wirtschaft"
+                    }
+                },
+                "economy": {
+                    "name": "Wirtschaftsgraph",
+                    "noData": "No Data",
+                    "days": [
+                        "Heute",
+                        "vor 1 Tag",
+                        "vor 2 Tagen",
+                        "vor 3 Tagen",
+                        "vor 4 Tagen",
+                        "vor 5 Tagen",
+                        "vor 6 Tagen"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Lieblingsjobs",
+                "none": "Keine Lieblingsjobs"
+            },
+            "onlineStaff": {
+                "title": "Teammitglieder",
+                "none": "Keine Teammitglieder online"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Suche nach Jobs",
+                "sort": {
+                    "default": "Sortieren",
+                    "alphabetically": "Alphabetisch",
+                    "highestSalary": "Höchstes Gehalt",
+                    "lowestSalary": "Niedrigstes Gehalt",
+                    "mostPeople": "Meist besetzt",
+                    "leastPeople": "Weniger besetzt"
+                },
+                "showRecentJobs": "Zeige letzte Jobs an",
+                "showFavouriteJobs": "Zeige Lieblingsjobs an"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "BESCHREIBUNG",
+                    "weapons": "WAFFEN",
+                    "ranks": "RANKS"
+                },
+                "levelRequirement": "Level benötigt: :level:",
+                "donatorJob": "Donator Job!",
+                "button": {
+                    "become": "AUSWÄHLEN",
+                    "areThisJob": "DU HAST DIESEN JOB",
+                    "jobIsFull": "JOB IST BESETZT",
+                    "customCheckFailed": "NICHT VERFÜGBAR",
+                    "tooLowLevel": "LEVEL ZU NIEDRIG"
+                },
+                "anHour": "/h"
+            },
+            "favouriteJobs": "Lieblingsjobs",
+            "recentJobs": "Letzte  Jobs",
+            "salary": "Gehalt: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "GEGENSTÄNDE",
+                "weapons": "WAFFEN",
+                "shipments": "SHIPMENTS",
+                "ammo": "MUNITION",
+                "vehicles": "FAHRZEUGE",
+                "food": "NAHRUNG"
+            },
+            "top": {
+                "search": "Suche nach Items",
+                "sort": {
+                    "default": "Sortieren",
+                    "alphabetically": "Alphabetisch",
+                    "highestPrice": "Höchster Preis",
+                    "lowestPrice": "Niedrigster Preis"
+                },
+                "showFavourite": "Zeige Favoriten an"
+            },
+            "favourites": "Favoriten"
+        },
+        "options": {
+            "general": {
+                "name": "Allgemein",
+                
+                "dropMoney": {
+                    "name": "Geld fallen lassen",
+                    "desc": "Bestimmte Menge an Geld fallen lassen.",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Geld geben",
+                    "desc": "Gebe der Person vor dir Geld",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Name ändern",
+                    "desc": "Gib deinen neuen Namen ein",
+                    "placeholder": "Name"
+                },
+                "changeJobTitle": {
+                    "name": "Job-Name ändern",
+                    "desc": "GIb deinen Job-Namen ein",
+                    "placeholder": "Job Name"
+                },
+                "requestGunLicense": {
+                    "name": "Waffenlizenz anfordern"
+                },
+                "sellAllDoors": {
+                    "name": "Alle Türen verkaufen"
+                },
+                "dropWeapon": {
+                    "name": "Waffe fallen lassen"
+                }
+            },
+            "mayor": {
+                "name": "Bürgermeister",
+                
+                "startLockdown": { 
+                    "name": "Lockdown starten"
+                },
+                "stopLockdown": {
+                    "name": "Lockdown beenden"
+                },
+                "giveLicense": {
+                    "name": "Lizenz vergeben"
+                },
+                "addLaw": {
+                    "name": "Gesetz hinzufügen",
+                    "desc": "Erstelle ein neues Gesetz",
+                    "placeholder": "Law"
+                },
+                "removeLaw": {
+                    "name": "Gesetz entfernen",
+                    "desc": "Entferne ein Gesetz",
+                    "placeholder": "Law"
+                },
+                "resetLaws": {
+                    "name": "Gesetze zurücksetzen"
+                },
+                "placeLawboard": {
+                    "name": "Platziere eine Gesetzestafel"
+                },
+                "broadcastToCity": {
+                    "name": "Nachricht an die Stadt",
+                    "desc": "Welche Nachricht willst ud an die Bürger senden?",
+                    "placeholder": "Nachricht"
+                },
+                "startLottery": {
+                    "name": "Lotterie starten",
+                    "desc": "Wie viel Geld soll die Lotterie kosten?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Polizei",
+                
+                "wanted": {
+                    "name": "Fahndung",
+                    "desc": "Grund schreiben & Spieler auswählen",
+                    "placeholder": "Grund"
+                },
+                "warrant": {
+                    "name": "Durchsuchungsbefehl",
+                    "desc": "Grund schreiben & Spieler auswählen",
+                    "placeholder": "Grund"
+                },
+                "unwarrant": {
+                    "name": "Fahndung aufheben",
+                    "desc": "Spieler auswählen"
+                }
+            }
+        }
+    }
+}

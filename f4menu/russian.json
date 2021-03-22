@@ -1,0 +1,206 @@
+{
+    "phrases": {
+        "dashboard": {
+            "tabs": {
+                "general": {
+                    "name": "Общее",
+                    
+                    "online": {
+                        "title": "Онлайн",
+                        "data": ":online:/:max:"
+                    },
+                    "totalMoney": {
+                        "title": "Всего денег"
+                    },
+                    "jobDistribution": {
+                        "title": "Распределение работ"
+                    },
+                    "richestPlayer": {
+                        "title": "Самый богатый игрок",
+                        "economy": ":percentage:% от экономики"
+                    }
+                },
+                "economy": {
+                    "name": "График экономики",
+                    "noData": "Нет данных",
+                    "days": [
+                        "Сегодня",
+                        "1 день назад",
+                        "2 дня назад",
+                        "3 дня назад",
+                        "4 дня назад",
+                        "5 дней назад",
+                        "6 дней назад"
+                    ]
+                }
+            },
+            "favouriteJobs": {
+                "title": "Избранные работы",
+                "none": "Нет избранных работ"
+            },
+            "onlineStaff": {
+                "title": "Онлайн Администрация",
+                "none": "Нет Администрации онлайн"
+            }
+        },
+        "jobs": {
+            "top": {
+                "search": "Поиск по названию работы",
+                "sort": {
+                    "default": "Сортировка по умолчанию",
+                    "alphabetically": "По алфавиту",
+                    "highestSalary": "По высокой зарплате",
+                    "lowestSalary": "По низкой зарплате",
+                    "mostPeople": "По большинству людей",
+                    "leastPeople": "По меньшинству людей"
+                },
+                "showRecentJobs": "Показать недавние работы",
+                "showFavouriteJobs": "Показать избранные работы"
+            },
+            "slideout": {
+                "tabs": {
+                    "description": "ОПИСАНИЕ",
+                    "weapons": "ОРУЖИЕ",
+                    "ranks": "РАНГ"
+                },
+                "levelRequirement": "Уровень: :level:",
+                "donatorJob": "Работа Донатора!",
+                "button": {
+                    "become": "СТАТЬ",
+                    "areThisJob": "ВЫ УЖЕ ИМЕЕТЕ ЭТУ РАБОТУ",
+                    "jobIsFull": "РАБОТА ПЕРЕПОЛНЕНА",
+                    "customCheckFailed": "СБОЙ ПРОВЕРКИ",
+                    "tooLowLevel": "TOO LEVEL LEVEL"
+                },
+                "anHour": "/ч"
+            },
+            "favouriteJobs": "Избранные работы",
+            "recentJobs": "Недавние работы",
+            "salary": "Зарплата: :money:"
+        },
+        "items": {
+            "tabs": {
+                "entities": "ЭНТИТИ",
+                "weapons": "ОРУЖИЕ",
+                "shipments": "ТОВАРЫ",
+                "ammo": "ПАТРОНЫ",
+                "vehicles": "ТРАНСПОРТ",
+                "food": "ЕДА"
+            },
+            "food": {
+                "categoryName": "Еда"
+            },
+            "vehicles": {
+                "categoryName": "Транспорт"  
+            },
+            "top": {
+                "search": "Поиск по имени",
+                "sort": {
+                    "default": "Сортировка по умолчанию",
+                    "alphabetically": "По алфавиту",
+                    "highestPrice": "По высокой цене",
+                    "lowestPrice": "По низкой цене"
+                },
+                "showFavourite": "Показать избранные"
+            },
+            "favourites": "Избранные"
+        },
+        "options": {
+            "general": {
+                "name": "Общее",
+                
+                "dropMoney": {
+                    "name": "Сбросить деньги",
+                    "desc": "Сумма денег, которую вы хотите сбросить",
+                    "placeholder": "$1000"
+                },
+                "giveMoney": {
+                    "name": "Передать деньги",
+                    "desc": "Передать деньги человеку, на которого смотрите",
+                    "placeholder": "$1000"
+                },
+                "changeName": {
+                    "name": "Изменить имя",
+                    "desc": "Введите ваше новое имя",
+                    "placeholder": "Имя"
+                },
+                "changeJobTitle": {
+                    "name": "Изменить название работы",
+                    "desc": "Введите название вашей новой должности",
+                    "placeholder": "Название"
+                },
+                "requestGunLicense": {
+                    "name": "Запросить лицензию на оружие"
+                },
+                "sellAllDoors": {
+                    "name": "Продать все двери"
+                },
+                "dropWeapon": {
+                    "name": "Выкинуть оружие"
+                },
+                "cheque": {
+                    "name": "Выписать",
+                    "desc": "Выписать чек конкретному игроку",
+                    "amount": "1000"
+                }
+            },
+            "mayor": {
+                "name": "Мэр",
+                
+                "startLockdown": { 
+                    "name": "Начать комендантский час"
+                },
+                "stopLockdown": {
+                    "name": "Остановить комендантский час"
+                },
+                "giveLicense": {
+                    "name": "Дать лицензию"
+                },
+                "addLaw": {
+                    "name": "Добавить закон",
+                    "desc": "Добавьте закон",
+                    "placeholder": "Закон"
+                },
+                "removeLaw": {
+                    "name": "Убрать закон",
+                    "desc": "Уберите закон",
+                    "placeholder": "Закон"
+                },
+                "resetLaws": {
+                    "name": "Сбросить законы"
+                },
+                "placeLawboard": {
+                    "name": "Разместить доску с законами"
+                },
+                "broadcastToCity": {
+                    "name": "Трансляция в город",
+                    "desc": "Какое сообщение вы хотели бы передать?",
+                    "placeholder": "Сообщение"
+                },
+                "startLottery": {
+                    "name": "Начать лотерею",
+                    "desc": "Сколько денег для участия в лотерее?",
+                    "placeholder": "$1000"
+                }
+            },
+            "police": {
+                "name": "Полиция",
+                
+                "wanted": {
+                    "name": "Объявить в розыск",
+                    "desc": "Напишите причину и выберите игрока",
+                    "placeholder": "Причина"
+                },
+                "warrant": {
+                    "name": "Запросить ордер",
+                    "desc": "Напишите причину и выберите игрока",
+                    "placeholder": "Причина"
+                },
+                "unwarrant": {
+                    "name": "Убрать ордер",
+                    "desc": "Выберите игрока"
+                }
+            }
+        }
+    }
+}

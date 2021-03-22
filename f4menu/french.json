@@ -1,0 +1,198 @@
+{
+	"phrases":{
+		"dashboard":{
+			"tabs":{
+				"general":{
+					"name":"Général",
+					"online":{
+						"title":"En Ligne",
+						"data":":online:/:max:"
+					},
+					"totalMoney":{
+						"title":"Argent total"
+					},
+					"jobDistribution":{
+						"title":"Distribution des métiers"
+					},
+					"richestPlayer":{
+						"title":"Joueur le plus riche",
+						"economy":":percentage:% de l'économie"
+					}
+				},
+				"economy":{
+					"name":"Graphique de l'économie",
+					"noData":"Aucune données",
+					"days":[
+						"Aujourd'hui",
+						"il y a 1 jour",
+						"il y a 2 jours",
+						"il y a 3 jours",
+						"il y a 4 jours",
+						"il y a 5 jours",
+						"il y a 6 jours"
+					]
+				}
+			},
+			"favouriteJobs":{
+				"title":" Favoris",
+				"none":"Aucun métier favoris"
+			},
+			"onlineStaff":{
+				"title":"Membres du staff en ligne",
+				"none":"Aucun membre du staff en ligne"
+			}
+		},
+		"jobs":{
+			"top":{
+				"search":"Rechercher par nom",
+				"sort":{
+					"default":"Classement par défaut",
+					"alphabetically":"Alphabétiquement",
+					"highestSalary":"Salaire plus élevé",
+					"lowestSalary":"Salaire moins élevé",
+					"mostPeople":"Plus de joueurs",
+					"leastPeople":"Moins de joueurs"
+				},
+				"showRecentJobs":"Afficher les métiers récents",
+				"showFavouriteJobs":"Afficher les métiers favoris"
+			},
+			"slideout":{
+				"tabs":{
+					"description":"DESCRIPTION",
+					"weapons":"ARMES",
+					"ranks":"RANGS"
+				},
+				"levelRequirement":"Niveau requis: :level:",
+				"donatorJob":"MÉTIER DONATEUR!",
+				"button":{
+					"become":"DEVENIR",
+					"areThisJob":"VOTRE MÉTIER",
+					"jobIsFull":"LE MÉTIER EST COMPLET",
+					"customCheckFailed":"VÉRIFICATION REQUISE",
+					"tooLowLevel":"NIVEAU PAS ASSEZ ÉLEVÉ"
+				},
+				"anHour":"/h"
+			},
+			"favouriteJobs":"Métiers favoris",
+			"recentJobs":"Métiers récents",
+			"salary":"Salaire: :money:"
+		},
+		"items":{
+			"tabs":{
+				"entities":"ENTITÉS",
+				"weapons":"ARMES",
+				"shipments":"CARGAISONS",
+				"ammo":"MUNITIONS",
+				"vehicles":"VÉHICULES",
+				"food":"NOURRITURE"
+			},
+			"food":{
+				"categoryName":"Nourriture"
+			},
+			"vehicles":{
+				"categoryName":"Véhicules"
+			},
+			"top":{
+				"search":"Chercher par nom",
+				"sort":{
+					"default":"Classement par défaut",
+					"alphabetically":"Alphabétiquement",
+					"highestPrice":"Prix le plus élevé",
+					"lowestPrice":"Prix le moins élevé"
+				},
+				"showFavourite":"Afficher favoris"
+			},
+			"favourites":"Favoris"
+		},
+		"options":{
+			"general":{
+				"name":"Général",
+				"dropMoney":{
+					"name":"Déposer de l'argent",
+					"desc":"Montant d'argent que vous souhaitez déposer",
+					"placeholder":"$1000"
+				},
+				"giveMoney":{
+					"name":"Donner de l'argent",
+					"desc":"Donne de l'argent à la personne en face de vous",
+					"placeholder":"$1000"
+				},
+				"changeName":{
+					"name":"Changer de nom RolePlay",
+					"desc":"Comment souhaitez-vous que l'on vous appelle?",
+					"placeholder":"Nom"
+				},
+				"changeJobTitle":{
+					"name":"Changer de métier",
+					"desc":"Écrivez le nom de votre nouveau métier",
+					"placeholder":"Nom du métier"
+				},
+				"requestGunLicense":{
+					"name":"Demander une licence d'armes"
+				},
+				"sellAllDoors":{
+					"name":"Vendre toutes les portes"
+				},
+				"dropWeapon":{
+					"name":"Déposer votre arme"
+				}
+			},
+			"mayor":{
+				"name":"Maire",
+				"startLockdown":{
+					"name":"Commencer un Couvre-Feux"
+				},
+				"stopLockdown":{
+					"name":"Arrêter le Couvre-Feux"
+				},
+				"giveLicense":{
+					"name":"Donner une license d'arme"
+				},
+				"addLaw":{
+					"name":"Ajouter une Loi",
+					"desc":"Ajouter une loi",
+					"placeholder":"Loi"
+				},
+				"removeLaw":{
+					"name":"Supprimer Une Loi",
+					"desc":"Supprimer une loi",
+					"placeholder":"Loi"
+				},
+				"resetLaws":{
+					"name":"Réinitialiser les lois par défaut"
+				},
+				"placeLawboard":{
+					"name":"Placer un tableau des lois"
+				},
+				"broadcastToCity":{
+					"name":"Diffuser un message",
+					"desc":"Diffuse un message a tous joueurs",
+					"placeholder":"Message"
+				},
+				"startLottery":{
+					"name":"Commencer une lotterie",
+					"desc":"Prix à payer pour participer à la lotterie",
+					"placeholder":"$1000"
+				}
+			},
+            "police": {
+                "name": "Police",
+                
+                "wanted": {
+                    "name": "Lancer un avis de recherche",
+                    "desc": "Écrivez la raison et sélectionnez une personne",
+                    "placeholder": "Raison"
+                },
+                "warrant": {
+                    "name": "Faire un mandat de perquisition",
+                    "desc": "Écrivez la raison et sélectionnez une personne",
+                    "placeholder": "Raison"
+                },
+                "unwarrant": {
+                    "name": "Supprimer un mandat de perquisition",
+                    "desc": "Sélectionnez une personne"
+                }
+            }
+        }
+    }
+}
