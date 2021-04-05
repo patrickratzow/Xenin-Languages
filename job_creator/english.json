@@ -57,6 +57,9 @@
               }
             }
           },
+          "integrations": {
+            "title": "Integrations"
+          },
           "weapons": {
             "title": "Weapons",
             "overview": {
@@ -387,6 +390,19 @@
         },
         "loading": "Loading Versions",
         "unable_to_load": "Unable to load versions remotely"
+      },
+      "conversion": {
+        "exchange_rate": "Exchange Rate",
+        "darkrp_cash": "DarkRP Cash",
+        "convert": {
+          "btn": "Convert",
+          "notifications": {
+            "invalid": "Invalid currency conversion input!",
+            "cash_too_low": "Cash is too low! Needs to be at least :minimum:!",
+            "cant_afford": "You can't afford that!",
+            "success": "Converted :cash: into :credits: {{ grammaticalNumber(credit, :credits:) }}!"
+          }
+        }
       }
     },
     "notifications": {
