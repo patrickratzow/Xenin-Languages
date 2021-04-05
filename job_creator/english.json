@@ -397,6 +397,7 @@
         "convert": {
           "btn": "Convert",
           "notifications": {
+            "no_darkrp_currency": "You cannot use this with your currency set to DarkRP Cash!",
             "invalid": "Invalid currency conversion input!",
             "cash_too_low": "Cash is too low! Needs to be at least :minimum:!",
             "cant_afford": "You can't afford that!",
