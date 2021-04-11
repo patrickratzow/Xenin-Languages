@@ -57,6 +57,9 @@
                 }
               }
             },
+            "integrations": {
+              "title": "Intégrations"
+            },
             "weapons": {
               "title": "Armes",
               "overview": {
@@ -387,6 +390,20 @@
           },
           "loading": "Chargement des versions",
           "unable_to_load": "Impossible de charger les versions!"
+        },
+        "conversion": {
+          "exchange_rate": "Taux de change",
+          "darkrp_cash": "Argent DarkRP",
+          "convert": {
+            "btn": "Convertir",
+            "notifications": {
+              "no_darkrp_currency": "Vous ne pouvez pas utiliser ceci si la devise est réglée sur l'argent DarkRP!",
+              "invalid": "Entrée de conversion des devises invalide!",
+              "cash_too_low": "L'argent est trop faible! Il faut qu'il soit au moins de :minimum:!",
+              "cant_afford": "Vous n'en avez pas les moyens!",
+              "success": "Conversion de :cash: en :credits: {{ grammaticalNumber(crédit, :credits:) }}!"
+            }
+          }
         }
       },
       "notifications": {
