@@ -1,0 +1,428 @@
+ {
+  "phrases": {
+    "ui": {
+      "job_editor": {
+        "shared": {
+          "search": "Arama",
+          "cancel": "Iptal",
+          "go_back": "Geri",
+          "save": "Kaydet",
+          "total_price": "Toplam Fiyat",
+          "total_price_multiplier": "Total Price @ :multiplier:x",
+          "update_price": "Fiyati Guncelle",
+          "free": "Ucretsiz"
+        },
+        "steps": {
+          "basics": {
+            "title": "Meslek Temeli",
+            "fields": {
+              "name": {
+                "title": "isim",
+                "input_placeholder": "Meslek Adı",
+                "hint": {
+                  "too_few": "Cok az karakter! Minimum :minimum: karakter",
+                  "too_many": "Cok fazla karakter! :characters:/:max: karakter",
+                  "illegal": "Yasadisi isim!",
+                  "valid": ":characters:/:max: karakter"
+                }
+              },
+              "salary": {
+                "title": "Maas",
+                "invalid": "Gecersiz maas"
+              },
+              "color": {
+                "title": "Renk"
+              },
+              "gun_license": {
+                "title": "Silah Lisansı"
+              },
+              "start_health": {
+                "title": "Saglık",
+                "symbol": "HP"
+              },
+              "start_armor": {
+                "title": "Zırh",
+                "symbol": "AP"
+              },
+              "description": {
+                "title": "Acıklama",
+                "input_placeholder": "Meslek Acıklaması",
+                "hint": {
+                  "valid": ":characters:/:max: karakter",
+                  "invalid": "Yasadisi Acıklama!"
+                }
+              },
+              "category": {
+                "title": "Meslek Kategorisi"
+              }
+            }
+          },
+          "integrations": {
+            "title": "Entegrasyonlar"
+          },
+          "weapons": {
+            "title": "Silahlar",
+            "overview": {
+              "empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(weapon, :max:) }}, totalling :price:"
+            },
+            "edit_button": "Silah edit",
+            "no_weapons_selected": "Silah Secilmedi"
+          },
+          "models": {
+            "title": "Modeller",
+            "overview": {
+              "empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}",
+              "not_empty": ":amount:/:max: {{ grammaticalNumber(model, :max:) }}, totalling :price:"
+            },
+            "change_model": "Model Degistir",
+            "edit_button": "Model Editle",
+            "import_button": "Model Aktar",
+            "unable_to_find_name": "Isim bulunamadi",
+            "fetching": "Getiliriyor..",
+            "worth": "Deger",
+            "model_source": {
+              "select": "Model kaynagini secin",
+              "or": "ya da ",
+              "go_to_selected_model": "Secili Modele Git"
+            },
+            "no_models_selected": "Model Secilmedi",
+            "import": {
+              "workshop": {
+                "overview": "Model Aktar",
+                "title": "Workshop URL",
+                "subtitle": ":base: + 1MB x :price:",
+                "continue_button": "Devam",
+                "invalid_url": "Gecersiz URL",
+                "checks": {
+                  "awaiting": "Yukleniyor...",
+                  "banned": "Atolye eklentisi sunucu tarafindan yasaklandi!",
+                  "in_use": "Bu eklenti zaten baska bir meslek tarafindan kullaniliyor!"
+                },
+                "loading": {
+                  "loading_info": "Eklenti Bilgisi Yukleniyor",
+                  "error": "Workshop error. Kod: :code:",
+                  "disabled": "Bu eklenti devre dısı birakildi",
+                  "banned": "Bu eklenti banlandı.",
+                  "downloading": "Eklenti indiriliyor",
+                  "unable_to_download": "Eklenti indirilemiyor.",
+                  "mounting": "Eklenti yukleniyor.",
+                  "unable_to_mount": "Eklenti Yuklenemiyor.",
+                  "no_files": "Addon'da dosya yok.",
+                  "no_player_models": "Herhangi bir model bulunamadi."
+                },
+                "too_many": {
+                  "title": "Maksimum modele ulasildi!",
+                  "description": "Daha fazla model ekleyemezsiniz!",
+                  "replace_button": "En yeni modeli degistirin",
+                  "nevermind_button": "Bosver"
+                }
+              },
+              "preview": {
+                "bodygroups": "Bodygrouplar",
+                "price": "Ucret"
+              }
+            }
+          },
+          "owners": {
+            "title": "Sahipler",
+            "overview": {
+              "title": ":amount: {{ grammaticalNumber(owner, :amount:) }}, :multiplier:x price",
+              "add_button": "Sahip ekle"
+            },
+            "add_owner": {
+              "input_placeholder": "Yeni sahibin SteamID64",
+              "no_player_name": "Oyuncu yok",
+              "primary_owner": "Oncelikli",
+              "additional_owner": "Ikincil",
+              "fetching": "Getiriliyor.."
+            }
+          },
+          "checkout": {
+            "title": "Odeme",
+            "overview": "Bozulma",
+            "unable_to_afford": "Karsılayamıyor!",
+            "validation": {
+              "validating": "Meslek dogrulama",
+              "waiting_for_server": "Sunucu bekleniyor"
+            },
+            "fields": {
+              "name": {
+                "title": "Isim",
+                "empty": "Ozel meslek"
+              },
+              "salary": "Maas",
+              "health": "Ekstra Saglık",
+              "armor": "Ekstra Zırh",
+              "gun_license": "Silah Lisansı",
+              "weapons": "Silahlar",
+              "models": "Model",
+              "owner_multiplier": "Sahipler",
+              "total": "Toplam",
+              "button": "Meslegi Satın Al",
+              "responses": [
+                "Success!",
+                "Unknown error",
+                "Invalid job!",
+                "Can't afford this"
+              ],
+              "errors": [
+                "Isim yok",
+                "isim cok kısa",
+                "isim cok uzun",
+                "isimde yasaklı kelime var",
+                "Meslegin maası yok",
+                "maas cok dusuk",
+                "maas cok yuksek",
+                "Meslegin rengi yok",
+                "bu renk gecersiz",
+                "Gecersiz silah",
+                "Cok fazla silah var",
+                "Gecersiz model",
+                "Cok fazla modelin var",
+                "En az 1 modele ihtiyacın var",
+                "Sahiplik gecersiz",
+                "Saglık gecersiz",
+                "saglık cok yuksek",
+                "Zırh gecersiz",
+                "Zırh cok yuksek",
+                "Bunu karsilayamazsin",
+                "Zaten maksimum sayıda meslegin var",
+                "Eklenti yasak listesinde"
+              ]
+            },
+            "credits": {
+              "cancel": "Iptal",
+              "currency_format": "+:currency:"
+            }
+          }
+        }
+      },
+      "main_menu": {
+        "inspect": {
+          "worth": "Deger",
+          "edit_job": "Meslek Edit",
+          "go_back": "Geri",
+          "delete": "Sil",
+          "delete_modal": {
+            "title": "Sil :name:",
+            "description": "Silmek istediginden emin misin? Odemen geri verilmeyecek.",
+            "yes": "Evet",
+            "no": "Hayır"
+          },
+          "fields": {
+            "name": "isim",
+            "salary": "Maas",
+            "color": "Renk"
+          }
+        },
+        "job": {
+          "inspect": "INCELE",
+          "empty": "BOS",
+          "create_new": "YENI YARAT",
+          "disabled_job": "HIZMET DISI MESLEK"
+        },
+        "tabs": {
+          "your_jobs": "MESLEKLERIN",
+          "shared_jobs": "PAYLASILAN MESLEKLER"
+        },
+        "credits": {
+          "you_have": "Mevcut kredin"
+        }
+      },
+      "admin": {
+        "tabs": {
+          "job_management": {
+            "title": "Meslek yonetimi",
+            "subtitle": "Meslekleri yonet"
+          },
+          "job_approval": {
+            "title": "Meslek onayı",
+            "subtitle": "Devre disi meslekleri onayla"
+          },
+          "job_creator": {
+            "title": "Meslek olusturucu",
+            "subtitle": "Meslekleri manuel olustur"
+          },
+          "job_editor": {
+            "title": "Meslek editoru",
+            "subtitle": "Meslekleri editle"
+          },
+          "workshop_bans": {
+            "title": "Workshop Banları",
+            "subtitle": "eklentileri banla"
+          },
+          "player_manager": {
+            "title": "Oyuncu Yonetimi",
+            "subtitle": "Oyuncuları yonet"
+          }
+        },
+        "job_inspector": {
+          "title": "Meslek Denetimi",
+          "loading": "Yukleniyor"
+        },
+        "approval_queue": {
+          "top": {
+            "search": "Meslek adına gore ara",
+            "manually_disabled_job": "Manuel devre dısı bırakılan meslekler"
+          },
+          "disabled_reasons": [
+            "Onay bekliyor",
+            "Admin tarafından devre dısı bırakıldı",
+            "Atolye modeli degisti ve model cok kucuk!",
+            "Atolye modeli degisti ve model cok buyuk!",
+            "Atolye modeli degisti ve model cok sert!"
+          ],
+          "loading": "Yukleniyor",
+          "no_results": "Sonuc yok",
+          "popup": {
+            "inspect": "Meslegi incele",
+            "accept": "Kabul Et",
+            "decline": "Reddet"
+          }
+        },
+        "create": {
+          "import": {
+            "button": "Lua meslek aktar",
+            "clear_button": "Meslek temizle",
+            "popup": {
+              "import_button": "Meslek aktar",
+              "title": "Lua kod",
+              "placeholder": "Aktarmak istediginiz meslek icin kodu yapıstırın"
+            }
+          }
+        },
+        "bans": {
+          "search": "id/name bilgilerine gore ara",
+          "add": {
+            "button": "Yasaklama ekle",
+            "modal": {
+              "title": "",
+              "ban_button": "Yasakla",
+              "info": {
+                "name": {
+                  "title": "Isim",
+                  "content": ":title:"
+                },
+                "size": {
+                  "title": "Boyut",
+                  "content": ":size: MB"
+                },
+                "uniqueViews": {
+                  "title": "Gorunumler",
+                  "content": ":views:"
+                },
+                "subscriptions": {
+                  "title": "Abonelikler",
+                  "content": ":subscriptions:"
+                },
+                "favorites": {
+                  "title": "Favoriler",
+                  "content": ":favorites:"
+                },
+                "posted": {
+                  "title": "Gonderildi",
+                  "content": "{{ fullDate(:epoch:) }}"
+                },
+                "last_updated": {
+                  "title": "Son guncelleme",
+                  "content": "{{ fullDate(:epoch:) }}"
+                }
+              }
+            }
+          },
+          "title": {
+            "filter": ":filterHits:/:total: {{ grammaticalNumber(addon, :total:) }} visible",
+            "normal": ":total: {{ grammaticalNumber(addon, :total:) }} banned"
+          },
+          "grid": {
+            "open_addon": {
+              "button": "Eklenti ac"
+            },
+            "remove_ban": {
+              "button": "Ban kaldır",
+              "modal": {
+                "title": "Ban kaldır",
+                "description": "Banı kaldirmak istediginden emin misin?",
+                "yes": "Evet",
+                "no": "Hayır"
+              }
+            },
+            "id": "id: :id:"
+          }
+        },
+        "management": {
+          "top": {
+            "search": "Meslek adına gore ara",
+            "offline_players": "Cevrimdısı oyuncu mesleklerini goster"
+          },
+          "loading": "Yukleniyor",
+          "no_results": "Sonuc yok",
+          "subtitle": "Sahip :name: (:sid:)",
+          "popup": {
+            "inspect": "Meslek incele",
+            "enable": "Kabul et",
+            "disable": "Reddet"
+          }
+        }
+      },
+      "hud": {
+        "fetching": "Bilgi alınıyor",
+        "status": [
+          "Indirmeye baslaniyor",
+          "Indiriliyor",
+          "Yukleniyor",
+          "Bitti",
+          "Error"
+        ]
+      },
+      "config": {
+        "auto_update": "Oto Guncelleme",
+        "beta": "Beta",
+        "locked": "Bu surum kilitlendi",
+        "changelogs": "Changelogs",
+        "lock": "Bu surume kilitle",
+        "lock_modal": {
+          "title": " :version: surumune kilitle",
+          "description": "Surumu kilitlerseniz eklenti otomatik olarak guncellenmez.",
+          "yes": "Evet, sorun degil.",
+          "no": "Bosver"
+        },
+        "loading": "Surumler yukleniyor",
+        "unable_to_load": "Surumler yuklenemiyor!"
+      },
+      "conversion": {
+        "exchange_rate": "Kur Farkı",
+        "darkrp_cash": "DarkRP Nakit",
+        "convert": {
+          "btn": "Convert",
+          "notifications": {
+            "no_darkrp_currency": "Bunu, para biriminiz DarkRP Cash olarak ayarliyken kullanamazsiniz!",
+            "invalid": "Gecersiz para birimi donusturme girisi!",
+            "cash_too_low": "Nakit cok dusuk en az :minimum: olması gerekiyor!",
+            "cant_afford": "Bunu karsılayamazsın!",
+            "success": "  :cash:, :credits: krediye donusturuldu. {{ grammaticalNumber(credit, :credits:) }}!"
+          }
+        }
+      }
+    },
+    "notifications": {
+      "currency_given": {
+        "text": "Sana verilen :amount:"
+      },
+      "disabled_job": {
+        "content": "Atolye eklentisi icin izin verilenden daha buyuk bir guncelleme nedeniyle [:jobName:] mesleginiz otomatik olarak devre disi bırakıldı.\nOnay kuyruğuna alındı ​​ve bir yöneticinin ona bakmasını bekliyor",
+        "popup": {
+          "view": {
+            "text": "Meslegi goruntule",
+            "loading": "Veritabanından meslek alma"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "grammaticalNumber": "local args = { ... }; local str = args[1]; local input = args[2]; return str .. (tonumber(input) != 1 and 's' or '')",
+    "fullDate": "local args = { ... }; local epoch = tonumber(args[1]); return os.date('%d %b, %Y @ %I:%M %p', epoch)"
+  }
+}
